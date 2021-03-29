@@ -117,8 +117,14 @@ footer .fas {
   font-size: 0.9rem;
   color: var(--whiteColor);
   background-color: #343434;
+  border: 2px solid #343434;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+footer .fab:hover,
+footer .fas:hover {
+  background-color: var(--darkColor);
 }
 
 .footer-logo {
@@ -130,6 +136,17 @@ footer .fas {
 .footer-logo img {
   height: 0.6rem;
   font-size: 0.6rem;
+}
+
+.footer-links a:hover {
+  color: var(--whiteColor);
+
+}
+
+.footer-logo p {
+  color: var(--gray);
+  font-size: 0.6rem;
+  margin: 0 5px;
 }
 
 .stackpath {
