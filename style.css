@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -19,6 +21,7 @@ nav {
 .dark-nav {
   background-color: var(--darkColor);
   flex-direction: row;
+  justify-content: space-between;
 }
 
 
