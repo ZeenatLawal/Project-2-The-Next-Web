@@ -7,7 +7,13 @@
 }
 
 :root {
-  --darkColor: rgb(0, 0, 0);
+  --darkColor: #000;
+  --whiteColor: #fff;
+  --gray: #898888;
+}
+
+a {
+  color: var(--gray);
 }
 
 .flex {
@@ -22,6 +28,10 @@ nav {
   background-color: var(--darkColor);
   flex-direction: row;
   justify-content: space-between;
+}
+
+.white-hover a:hover {
+  color: var(--whiteColor);
 }
 
 
