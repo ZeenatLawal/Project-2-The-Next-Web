@@ -34,6 +34,10 @@ nav {
   color: var(--whiteColor);
 }
 
+.black-hover a:hover {
+  color: var(--darkColor);
+}
+
 
 
 @media screen and (min-width:600px) {
