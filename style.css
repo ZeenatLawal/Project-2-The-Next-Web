@@ -4,9 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --darkColor: rgb(0, 0, 0);
+}
 
+.flex {
+  display: flex;
+}
 
+nav {
+  flex-direction: column;
+}
 
+.dark-nav {
+  background-color: var(--darkColor);
+  flex-direction: row;
+}
 
 
 
