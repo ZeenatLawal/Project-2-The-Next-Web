@@ -245,6 +245,44 @@ footer .fas:hover {
   .yellow-nav {
     padding-left: 10px;
   }
+
+  /* Highlights */
+
+  .highlights {
+    flex-direction: row;
+    height: 400px;
+    
+  }
+
+  .sub-container{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .highlight {
+    margin-right: 10px;
+    font-size: 1rem;
+    height: 250px;
+  }
+  .sub-highlight {
+    font-size: 0.5rem;
+    height: 120px;
+    
+  }
+
+  .highlight,
+  .sub-highlight {
+  margin-bottom: 0;
+}
+
+
+  .highlights h1,
+.highlights h2 {
+  margin-bottom: 5px;
+}
+
 }
 
 @media screen and (min-width: 768px) {
