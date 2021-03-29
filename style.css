@@ -103,23 +103,37 @@ nav .fas {
     background-color: var(--darkColor);
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 5px;
   }
 
   nav .fa-bars {
     display: none;
   }
+  
+  nav .fa-search {
+    font-size: 0.6rem;
+    padding: 10px;
+  }
+
+  .black-hover {
+    align-items: center;
+  }
 
   .logo-img {
     display: none;
+  }
+
+  .yellow-nav a {
+    margin: 0;
+  }
+  
+  .dark-nav,
+  .white-nav,
+  .yellow-nav {
+   padding-left: 10px;
   }
 }
 
 @media screen and (min-width:768px) {
   
-  
-.dark-nav,
-.white-nav,
-.yellow-nav {
-  padding: 20px;
-}
 }
