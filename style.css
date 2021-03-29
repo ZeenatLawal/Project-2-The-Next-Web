@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 :root {
@@ -26,15 +27,7 @@ nav {
 }
 
 .dark-nav {
-  background-color: var(--darkColor);
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.dark-nav,
-.white-nav,
-.yellow-nav {
-  padding: 20px;
+  display: none;
 }
 
 .dark-nav li {
@@ -50,11 +43,23 @@ nav {
 }
 
 .logo-img {
-  display: none;
+  width: 20%;
 }
 
 .yellow-nav {
   background-color: var(--yellow);
+  padding: 10px;
+}
+
+.yellow-nav p {
+  color: var(--darkColor);
+  font-size: 0.6rem;
+  margin: auto;
+}
+
+.white-hover,
+.black-hover {
+  display: none;
 }
 
 .white-hover a:hover {
@@ -72,5 +77,15 @@ nav {
 }
 
 @media screen and (min-width:768px) {
-
+  .dark-nav {
+    background-color: var(--darkColor);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.dark-nav,
+.white-nav,
+.yellow-nav {
+  padding: 20px;
+}
 }
