@@ -104,16 +104,36 @@ footer {
   padding: 25px;
 }
 
+.bg-lighter li {
+  font-size: 0.7rem;
+  margin: 25px 8px 8px 10px;
+}
+
 footer .fab,
 footer .fas {
-  width: 30px;
-  height: 30px;
-  padding: 9px;
-  font-size: 0.7rem;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.9rem;
   color: var(--whiteColor);
   background-color: #343434;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.footer-logo {
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-logo a,
+.footer-logo img {
+  height: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.stackpath {
+  color: var(--whiteColor);
 }
 
 @media screen and (min-width:600px) {
