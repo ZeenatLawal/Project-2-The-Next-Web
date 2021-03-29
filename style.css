@@ -12,9 +12,8 @@
   --lightDarkColor: #131313;
   --whiteColor: #fff;
   --gray: #898888;
-  --yellow: #ffdd33;
-  --red: #ff4422;
-
+  --yellow: #fd3;
+  --red: #f42;
 }
 
 a {
@@ -66,14 +65,6 @@ nav {
   display: none;
 }
 
-.white-hover a:hover {
-  color: var(--whiteColor);
-}
-
-.black-hover a:hover {
-  color: var(--darkColor);
-}
-
 .display-m {
   display: block;
 }
@@ -88,7 +79,6 @@ nav .fas {
   padding: 15px;
   height: 100%;
   width: auto;
-
 }
 
 /* FOOTER STYLING */
@@ -122,11 +112,6 @@ footer .fas {
   margin-right: 15px;
 }
 
-footer .fab:hover,
-footer .fas:hover {
-  background-color: var(--darkColor);
-}
-
 .footer-logo {
   justify-content: center;
   padding: 30px;
@@ -138,15 +123,19 @@ footer .fas:hover {
   font-size: 0.6rem;
 }
 
-.footer-links a:hover {
-  color: var(--whiteColor);
-
-}
-
 .footer-logo p {
   color: var(--gray);
   font-size: 0.6rem;
   margin: 0 5px;
+}
+
+footer .fab:hover,
+footer .fas:hover {
+  background-color: var(--darkColor);
+}
+
+.footer-links a:hover {
+  color: var(--whiteColor);
 }
 
 .stackpath {
@@ -162,6 +151,7 @@ footer .fas:hover {
 .highlights {
   flex-direction: column;
   height: 1000px;
+  margin: 0 10px;
 }
 
 .highlight,
@@ -169,31 +159,27 @@ footer .fas:hover {
   height: 300px;
   margin-bottom: 10px;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   color: var(--whiteColor);
   padding: 15px;
 }
 
 .opal {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/phone.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/phone.jpeg);
   background-size: cover;
   background-position: center;
- 
 }
 
 .google {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/account.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/account.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .mac {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/duplicate.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/duplicate.png);
   background-size: cover;
   background-position: center;
-}
-.highlights {
-  margin: 0 10px;
 }
 
 .highlights h1,
@@ -209,7 +195,15 @@ footer .fas:hover {
   color: var(--whiteColor);
 }
 
-@media screen and (min-width:600px) {
+.white-hover a:hover {
+  color: var(--whiteColor);
+}
+
+.black-hover a:hover {
+  color: var(--darkColor);
+}
+
+@media screen and (min-width: 600px) {
   .flex {
     display: flex;
   }
@@ -228,7 +222,7 @@ footer .fas:hover {
   nav .fa-bars {
     display: none;
   }
-  
+
   nav .fa-search {
     font-size: 0.6rem;
     padding: 10px;
@@ -245,14 +239,14 @@ footer .fas:hover {
   .yellow-nav a {
     margin: 0;
   }
-  
+
   .dark-nav,
   .white-nav,
   .yellow-nav {
-   padding-left: 10px;
+    padding-left: 10px;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   
 }
