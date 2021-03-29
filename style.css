@@ -9,6 +9,7 @@
 
 :root {
   --darkColor: #000;
+  --lightDarkColor: #131313;
   --whiteColor: #fff;
   --gray: #898888;
   --yellow: #ffdd33;
@@ -88,6 +89,22 @@ nav .fas {
   height: 100%;
   width: auto;
 
+}
+
+/* FOOTER STYLING */
+
+footer {
+  background-color: var(--darkColor);
+}
+
+.bg-lighter {
+  background-color: var(--lightDarkColor);
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .fab {
+  
 }
 
 @media screen and (min-width:600px) {
