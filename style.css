@@ -273,12 +273,12 @@ footer .fas:hover {
 
   .highlight,
   .sub-highlight {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .highlights h1,
   .highlights h2 {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
   }
 
 }
