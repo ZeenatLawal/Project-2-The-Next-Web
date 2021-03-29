@@ -168,24 +168,45 @@ footer .fas:hover {
 .sub-highlight {
   height: 300px;
   margin-bottom: 10px;
+  flex-direction: column;
+  justify-content: end;
+  color: var(--whiteColor);
+  padding: 15px;
 }
 
 .opal {
-  background-image: url(images/phone.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/phone.jpeg);
   background-size: cover;
   background-position: center;
+ 
 }
 
 .google {
-  background-image: url(images/account.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/account.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .mac {
-  background-image: url(images/duplicate.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 1)), url(images/duplicate.png);
   background-size: cover;
   background-position: center;
+}
+.highlights {
+  margin: 0 10px;
+}
+
+.highlights h1,
+.highlights h2 {
+  margin-bottom: 20px;
+}
+
+.highlights ul > li {
+  margin-right: 10px;
+}
+
+.highlights a:hover {
+  color: var(--whiteColor);
 }
 
 @media screen and (min-width:600px) {
