@@ -10,6 +10,7 @@
   --darkColor: #000;
   --whiteColor: #fff;
   --gray: #898888;
+  --yellow: #ffdd33;
 }
 
 a {
@@ -28,6 +29,16 @@ nav {
   background-color: var(--darkColor);
   flex-direction: row;
   justify-content: space-between;
+}
+
+.dark-nav,
+.white-nav,
+.yellow-nav {
+  padding: 20px;
+}
+
+.yellow-nav {
+  background-color: var(--yellow);
 }
 
 .white-hover a:hover {
