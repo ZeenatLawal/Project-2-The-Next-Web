@@ -12,6 +12,8 @@
   --whiteColor: #fff;
   --gray: #898888;
   --yellow: #ffdd33;
+  --red: #ff4422;
+
 }
 
 a {
@@ -43,7 +45,8 @@ nav {
 }
 
 .logo-img {
-  width: 20%;
+  height: 50px;
+  width: auto;
 }
 
 .yellow-nav {
@@ -51,7 +54,7 @@ nav {
   padding: 10px;
 }
 
-.yellow-nav p {
+.yellow-nav a {
   color: var(--darkColor);
   font-size: 0.6rem;
   margin: auto;
@@ -70,7 +73,22 @@ nav {
   color: var(--darkColor);
 }
 
+.display-m {
+  display: block;
+}
 
+.fa-bars {
+  color: var(--red);
+}
+
+nav .fas {
+  font-size: 0.9rem;
+  border-left: lightgray solid 1px;
+  padding: 15px;
+  height: 100%;
+  width: auto;
+
+}
 
 @media screen and (min-width:600px) {
 
