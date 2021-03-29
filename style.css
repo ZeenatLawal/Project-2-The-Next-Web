@@ -101,10 +101,19 @@ footer {
   background-color: var(--lightDarkColor);
   flex-direction: column;
   align-items: center;
+  padding: 25px;
 }
 
-footer .fab {
-  
+footer .fab,
+footer .fas {
+  width: 30px;
+  height: 30px;
+  padding: 9px;
+  font-size: 0.7rem;
+  color: var(--whiteColor);
+  background-color: #343434;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 @media screen and (min-width:600px) {
