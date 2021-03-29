@@ -153,6 +153,41 @@ footer .fas:hover {
   color: var(--whiteColor);
 }
 
+/* HIGHLIGHTS STYLING */
+
+.highlights img {
+  display: none;
+}
+
+.highlights {
+  flex-direction: column;
+  height: 1000px;
+}
+
+.highlight,
+.sub-highlight {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.opal {
+  background-image: url(images/phone.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.google {
+  background-image: url(images/account.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mac {
+  background-image: url(images/duplicate.png);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width:600px) {
   .flex {
     display: flex;
