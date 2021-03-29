@@ -91,15 +91,31 @@ nav .fas {
 }
 
 @media screen and (min-width:600px) {
+  .flex {
+    display: flex;
+  }
 
-}
+  nav a {
+    font-size: 0.6rem;
+  }
 
-@media screen and (min-width:768px) {
   .dark-nav {
     background-color: var(--darkColor);
     flex-direction: row;
     justify-content: space-between;
   }
+
+  nav .fa-bars {
+    display: none;
+  }
+
+  .logo-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  
   
 .dark-nav,
 .white-nav,
