@@ -253,7 +253,7 @@ footer .fas:hover {
     height: 400px;
   }
 
-  .sub-container{
+  .sub-container {
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -284,5 +284,35 @@ footer .fas:hover {
 }
 
 @media screen and (min-width: 768px) {
+
+  /* Highlights  */
+
+  .highlights {
+    height: 550px;
+  }
+
+  .highlight{
+    width: 70%;
+    height: 500px;
+    position: relative;
+  }
+
+  .sub-container {
+    width: 30%;
+    height: 500px;
+  }
+
+  .sub-highlight {
+    height: 245px;
+  }
   
+  .highlight img {
+    display: block;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
 }
