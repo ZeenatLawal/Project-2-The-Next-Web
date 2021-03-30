@@ -210,6 +210,10 @@ time {
 
 /* Latest funding  */
 
+.latest {
+  padding: 10px;
+}
+
 .latest,
 .latest-heading {
   flex-direction: column;
@@ -245,13 +249,31 @@ time {
 
 .top-box p {
   padding-left: 70px;
+  color: var(--darkColor);
 }
 
 .top-box h4 {
   padding: 10px 10px 10px 70px;
   background-color: var(--red);
+  color: var(--whiteColor);
 }
 
+.top-box .value {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.4rem;
+}
+
+.top-box .series {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  color: var(--gray);
+}
+
+.top-box:hover {
+  cursor: pointer;
+}
 
 @media screen and (min-width: 600px) {
   .flex {
