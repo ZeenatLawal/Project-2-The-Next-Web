@@ -309,7 +309,8 @@ time {
   color: var(--gray);
 }
 
-.boxes .hidden {
+#third-box,
+#fourth-box {
   display: none;
 }
 
@@ -361,7 +362,7 @@ time {
 
   .highlights {
     flex-direction: row;
-    height: 400px;
+    height: 300px;
     margin-top: 3px;
   }
 
@@ -395,6 +396,47 @@ time {
 
   time {
     display: none;
+  }
+
+  /* Latest funding */
+
+  .latest-heading {
+    align-items: flex-start;
+  }
+
+  .latest-heading ul {
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+
+  .latest-heading li {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .latest-heading #updates {
+    border-left: 1px var(--red) solid;
+    border-right: 1px var(--red) solid;
+  }
+
+  .boxes {
+    display:flex;  
+    justify-content: space-between;  
+  }
+
+  .box {
+    width: 32%;
+  }
+
+  .center-box a,
+  .bottom-box a {
+    font-size: 0.7rem;
+  }
+
+  #third-box {
+    display: block;
   }
 
 }
