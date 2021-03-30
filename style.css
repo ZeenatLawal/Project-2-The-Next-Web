@@ -203,6 +203,10 @@ footer .fas:hover {
   color: var(--darkColor);
 }
 
+time {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
   .flex {
     display: flex;
@@ -281,6 +285,10 @@ footer .fas:hover {
     margin-bottom: 5px;
   }
 
+  time {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -316,8 +324,8 @@ footer .fas:hover {
   }
 
   .highlight h1 {
-    font-size: 2.1rem;
-    line-height: 2.1rem;
+    font-size: 3.1rem;
+    line-height: 3rem;
   }
 
   .sub-highlight h2 {
@@ -329,4 +337,10 @@ footer .fas:hover {
     background-image: linear-gradient(rgba(255, 61, 61, 0.562), rgba(0, 0, 0, 1)), url(images/phone.jpeg);
   }
 
+  time {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
 }
