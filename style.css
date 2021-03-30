@@ -275,6 +275,17 @@ time {
   cursor: pointer;
 }
 
+.center-box {
+  padding: 10px;
+  flex-direction: column;
+}
+
+.center-box a {
+  font-size: 0.8rem;
+  padding: 10px 0;
+  color: var(--darkColor);
+}
+
 @media screen and (min-width: 600px) {
   .flex {
     display: flex;
