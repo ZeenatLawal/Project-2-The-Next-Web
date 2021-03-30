@@ -233,6 +233,10 @@ time {
   color: var(--red);
 }
 
+.box {
+  margin-bottom: 20px;
+}
+
 .top-box {
   position: relative;
   height: 100px;
@@ -278,13 +282,33 @@ time {
 .center-box {
   padding: 10px;
   flex-direction: column;
+  background-color: #fffaf8;
 }
 
 .center-box a {
   font-size: 0.8rem;
-  padding: 10px 0;
+  padding: 7px 0;
   color: var(--darkColor);
 }
+
+.bottom-box {
+  border-top: 1px solid rgba(255,68,34,.25);
+  background-color: #fffaf8;
+  padding: 10px;
+}
+
+.bottom-box a {
+  font-size: 0.8rem;
+}
+
+.bottom-box p {
+  color: var(--darkColor);
+}
+
+.bottom-box span {
+  color: var(--gray);
+}
+
 
 @media screen and (min-width: 600px) {
   .flex {
