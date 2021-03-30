@@ -255,6 +255,7 @@ time {
   .highlights {
     flex-direction: row;
     height: 400px;
+    margin-top: 3px;
   }
 
   .sub-container {
