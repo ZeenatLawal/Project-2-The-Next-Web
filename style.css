@@ -17,6 +17,15 @@
   --lightRed: #ffebe7;
 }
 
+.no-display,
+.dark-nav,
+.white-hover,
+.black-hover,
+.highlights img,
+time {
+  display: none;
+}
+
 a {
   color: var(--gray);
 }
@@ -27,10 +36,6 @@ a {
 
 nav {
   flex-direction: column;
-}
-
-.dark-nav {
-  display: none;
 }
 
 .dark-nav li {
@@ -59,11 +64,6 @@ nav {
   color: var(--darkColor);
   font-size: 0.6rem;
   margin: auto;
-}
-
-.white-hover,
-.black-hover {
-  display: none;
 }
 
 .display-m {
@@ -145,10 +145,6 @@ footer .fas:hover {
 
 /* HIGHLIGHTS STYLING */
 
-.highlights img {
-  display: none;
-}
-
 .highlights {
   flex-direction: column;
   height: 1000px;
@@ -202,10 +198,6 @@ footer .fas:hover {
 
 .black-hover a:hover {
   color: var(--darkColor);
-}
-
-time {
-  display: none;
 }
 
 /* Latest funding  */
