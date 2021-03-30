@@ -15,6 +15,7 @@
   --yellow: #fd3;
   --red: #f42;
   --lightRed: #ffebe7;
+  --lighterRed: #fffaf8;
 }
 
 a {
@@ -263,7 +264,7 @@ footer .fas {
 .center-box {
   padding: 10px;
   flex-direction: column;
-  background-color: #fffaf8;
+  background-color: var(--lighterRed);
 }
 
 .center-box a {
@@ -274,7 +275,7 @@ footer .fas {
 
 .bottom-box {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
-  background-color: #fffaf8;
+  background-color: var(--lighterRed);
   padding: 10px;
 }
 
@@ -296,11 +297,9 @@ footer .fas {
   cursor: pointer;
 }
 
-.highlights a:hover {
-  color: var(--whiteColor);
-}
-
-.white-hover a:hover {
+.highlights a:hover,
+.white-hover a:hover,
+.footer-links a:hover {
   color: var(--whiteColor);
 }
 
@@ -313,15 +312,8 @@ footer .fas:hover {
   background-color: var(--darkColor);
 }
 
-.footer-links a:hover {
-  color: var(--whiteColor);
-}
-
 @media screen and (min-width: 600px) {
-  .flex {
-    display: flex;
-  }
-
+  
   nav a {
     font-size: 0.6rem;
   }
