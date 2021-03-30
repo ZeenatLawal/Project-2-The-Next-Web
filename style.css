@@ -315,4 +315,14 @@ footer .fas:hover {
     left: 10px;
   }
 
+  .highlight h1 {
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+  }
+
+  .sub-highlight h2 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
 }
