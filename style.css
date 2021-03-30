@@ -493,4 +493,22 @@ time {
     top: 10px;
     right: 10px;
   }
+
+  /* Latest funding */
+  .latest-heading {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .latest-heading ul {
+    flex-direction: row;
+  }
+
+  .box {
+    width: 24%;
+  }
+  #fourth-box {
+    display: block;
+  }
+
 }
