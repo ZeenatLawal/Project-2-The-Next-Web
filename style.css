@@ -325,4 +325,8 @@ footer .fas:hover {
     line-height: 1.3rem;
   }
 
+  .opal {
+    background-image: linear-gradient(rgba(255, 61, 61, 0.562), rgba(0, 0, 0, 1)), url(images/phone.jpeg);
+  }
+
 }
