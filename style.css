@@ -209,9 +209,25 @@ time {
 
 /* Latest funding  */
 
-.latest {
+.latest,
+.latest-heading {
   flex-direction: column;
+  color: var(--red);
 }
+
+.latest-heading ul {
+  flex-direction: column-reverse;
+  margin-top: 10px;
+}
+
+.latest-heading li {
+  padding-bottom: 10px;
+}
+
+.latest-heading a {
+  color: var(--red);
+}
+
 
 @media screen and (min-width: 600px) {
   .flex {
