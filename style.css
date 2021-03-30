@@ -326,9 +326,9 @@ footer .fas:hover {
   }
 
   .white-hover,
-   .black-hover {
+  .black-hover {
     display: flex;
-}
+  }
 
   nav .fa-bars,
   .logo-img {
