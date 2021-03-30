@@ -25,8 +25,20 @@ a {
   display: flex;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  background-color: var(--whiteColor);
+  width: 100%;
+  z-index: 1;
+}
+
 nav {
   flex-direction: column;
+}
+
+main {
+  margin-top: 90px;
 }
 
 /* Display none for mobile */
