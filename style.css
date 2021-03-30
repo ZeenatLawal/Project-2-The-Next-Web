@@ -207,6 +207,12 @@ time {
   display: none;
 }
 
+/* Latest funding  */
+
+.latest {
+  flex-direction: column;
+}
+
 @media screen and (min-width: 600px) {
   .flex {
     display: flex;
