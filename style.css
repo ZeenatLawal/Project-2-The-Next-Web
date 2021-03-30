@@ -14,6 +14,7 @@
   --gray: #898888;
   --yellow: #fd3;
   --red: #f42;
+  --lightRed: #ffebe7;
 }
 
 a {
@@ -212,7 +213,6 @@ time {
 .latest,
 .latest-heading {
   flex-direction: column;
-  color: var(--red);
 }
 
 .latest-heading ul {
@@ -224,8 +224,32 @@ time {
   padding-bottom: 10px;
 }
 
-.latest-heading a {
+.latest-heading a,
+.latest-heading h2 {
   color: var(--red);
+}
+
+.top-box {
+  position: relative;
+  height: 100px;
+  background-color: var(--lightRed);
+}
+
+.top-box img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.top-box p {
+  padding-left: 70px;
+}
+
+.top-box h4 {
+  padding: 10px 10px 10px 70px;
+  background-color: var(--red);
 }
 
 
