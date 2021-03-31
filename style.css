@@ -13,7 +13,6 @@
   --whiteColor: #fff;
   --gray: #898888;
   --yellow: #fd3;
-  --darkYellow: #f0c000;
   --red: #f42;
   --lightRed: #ffebe7;
   --lighterRed: #fffaf8;
@@ -50,8 +49,7 @@ time,
 #third-box,
 #fourth-box,
 .white-hover,
-.black-hover,
-.discount {
+.black-hover {
   display: none;
 }
 
@@ -194,6 +192,10 @@ footer .fas {
 
 .latest-heading li {
   padding-bottom: 10px;
+}
+
+.highlights ul > li {
+  margin-right: 10px;
 }
 
 /* Latest funding  */
@@ -471,8 +473,7 @@ img,
 
 .highlights a:hover,
 .white-hover a:hover,
-.footer-links a:hover,
-.top-category li > a:hover {
+.footer-links a:hover {
   color: var(--whiteColor);
 }
 
@@ -492,14 +493,9 @@ footer .fas:hover {
   color: var(--darkColor);
 }
 
-.sub-news h4:hover,
-.center-category h5:hover {
-  color: var(--red);
-  text-decoration: underline;
-}
-
-.bottom-category li > a:hover {
-  color: var(--darkColor);
+footer .fab:hover,
+footer .fas:hover {
+  background-color: var(--darkColor);
 }
 
 @media screen and (min-width: 600px) {
