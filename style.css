@@ -323,7 +323,7 @@ footer .fas {
   color: var(--whiteColor);
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .top-category p {
@@ -333,6 +333,21 @@ footer .fas {
 .top-category li{
   font-size: 0.7rem;
   color: var(--gray);
+}
+
+.center-category {
+  background-color: var(--lightRed);
+  padding-left: 10px;
+}
+
+.center-category p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+  margin-bottom: 3px;
+}
+
+.center-category a {
+  color: var(--red);
 }
 
 .categories #second-category,
