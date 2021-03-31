@@ -314,9 +314,6 @@ footer .fas {
 }
 
 .top-category {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/categories-1.jpg);
-  background-size: cover;
-  background-position: center;
   height: 400px;
   width: 100%;
   padding: 10px;
@@ -324,6 +321,20 @@ footer .fas {
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/categories-1.jpg);
+}
+
+.bg-2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/categories-2.jpg);
+}
+
+.bg-3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/categories-3.jpg);
 }
 
 .top-category p {
@@ -518,6 +529,29 @@ footer .fas:hover {
 
   #third-box {
     display: block;
+  }
+
+  /* Categories styling */
+
+  .categories {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .category {
+    width: 49%;
+  }
+  
+  .categories #second-category {
+    display: flex;
+  }
+
+  .top-category {
+    height: 240px;
+
+  }
+
+  .bottom-category li{
+    font-size: 0.7rem;
   }
 }
 
