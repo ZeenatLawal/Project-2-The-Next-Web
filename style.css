@@ -665,13 +665,13 @@ footer .fas:hover {
 
   /* Latest deals  */
 
-  .sub-news .img-wrapper {
-    width: 100%;
+   .sub-news .img-wrapper {
+    /* width: 100%;
     height: 110px;
-    background-color: var(--darkYellow);
+    background-color: var(--darkYellow); */
     position: relative;
   }
-
+/*
   .deals img {
     clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
   }
@@ -685,6 +685,16 @@ footer .fas:hover {
     transform: rotate(30deg);
     font-size: 0.8rem;
     font-weight: bold;
+  } */
+
+  .triangle {
+    position:absolute;
+    top:0;
+    right: 0;
+    background-color: var(--darkYellow);
+    z-index: 10;
+    width: 8-;
+
   }
 
   .deals ul {
@@ -811,15 +821,15 @@ footer .fas:hover {
 
   /* Latest deals styling  */
 
-  .deals img {
+  /* .deals img {
     clip-path: polygon(60% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
-  }
+  } */
 
   .deals h4 {
     margin-top: 20px;
   }
 
-  .discount {
+  /* .discount {
     display: block;
     color: var(--darkColor);
     position: absolute;
@@ -828,5 +838,5 @@ footer .fas:hover {
     transform: rotate(35deg);
     font-size: 0.8rem;
     font-weight: bold;
-  }
+  } */
 }
