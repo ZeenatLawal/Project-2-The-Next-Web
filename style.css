@@ -663,7 +663,7 @@ footer .fas:hover {
     background-color: var(--darkYellow);
     position: relative;
   }
-  .sub-news img {
+  .deals img {
     clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
   }
   .discount {
@@ -794,4 +794,22 @@ footer .fas:hover {
   .news img {
     height: 130px;
   }
+
+  /* Latest deals styling  */
+
+  .deals img {
+    clip-path: polygon(60% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .discount {
+    display: block;
+    color:var(--darkColor);
+    position: absolute;
+    top:20px;
+    right:5px;
+    transform: rotate(35deg);
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
 }
