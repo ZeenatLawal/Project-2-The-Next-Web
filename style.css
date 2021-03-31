@@ -434,6 +434,18 @@ footer .fas {
 
 .news .latest-heading > p {
   margin-top: 25px;
+  font-size: 0.8rem;
+}
+
+.deals ul {
+  color: var(--darkColor);
+  font-size: 0.8rem;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: var(--gray);
+  font-size: 0.7rem;
 }
 
 /* Hover styling */
