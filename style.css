@@ -456,6 +456,7 @@ footer .fas {
 
 /* Hover styling */
 
+img,
 .top-box:hover {
   cursor: pointer;
 }
