@@ -32,7 +32,7 @@ header {
   top: 0;
   background-color: var(--whiteColor);
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 nav {
@@ -671,23 +671,28 @@ footer .fas:hover {
   /* Latest deals  */
 
   .sub-news .img-wrapper {
-    width: 100%;
-    height: 110px;
-    background-color: var(--darkYellow);
     position: relative;
   }
 
-  .deals img {
-    clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
+  .triangle {
+    position:absolute;
+    top:0;
+    right: 0;
+    background-color: var(--darkYellow);
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
   }
 
   .discount {
     display: block;
     color: var(--darkColor);
+    transform: rotate(45deg);
     position: absolute;
-    top: 15px;
+    top: 25px ;
     right: 5px;
-    transform: rotate(30deg);
+    z-index: 2;
     font-size: 0.8rem;
     font-weight: bold;
   }
@@ -814,24 +819,7 @@ footer .fas:hover {
     height: 130px;
   }
 
-  /* Latest deals styling  */
-
-  .deals img {
-    clip-path: polygon(60% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
-  }
-
   .deals h4 {
     margin-top: 20px;
-  }
-
-  .discount {
-    display: block;
-    color: var(--darkColor);
-    position: absolute;
-    top: 20px;
-    right: 5px;
-    transform: rotate(35deg);
-    font-size: 0.8rem;
-    font-weight: bold;
   }
 }
