@@ -464,6 +464,10 @@ footer .fas {
   color: var(--darkColor);
 }
 
+.latest-heading a:hover {
+  color: var(--darkColor);
+}
+
 .highlights a:hover,
 .white-hover a:hover,
 .footer-links a:hover,
@@ -483,8 +487,7 @@ footer .fas:hover {
 
 .news h2:hover,
 .categories h2:hover,
-.latest-heading h2:hover,
-.latest-heading a:hover {
+.latest-heading h2:hover {
   color: var(--darkColor);
 }
 
@@ -679,8 +682,8 @@ footer .fas:hover {
   }
 
   .triangle {
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     right: 0;
     background-color: var(--darkYellow);
     z-index: 1;
@@ -694,7 +697,7 @@ footer .fas:hover {
     color: var(--darkColor);
     transform: rotate(45deg);
     position: absolute;
-    top: 25px ;
+    top: 25px;
     right: 5px;
     z-index: 2;
     font-size: 0.8rem;
