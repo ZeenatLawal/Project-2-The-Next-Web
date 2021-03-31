@@ -13,6 +13,7 @@
   --whiteColor: #fff;
   --gray: #898888;
   --yellow: #fd3;
+  --darkYellow: #f0c000;
   --red: #f42;
   --lightRed: #ffebe7;
   --lighterRed: #fffaf8;
@@ -49,7 +50,8 @@ time,
 #third-box,
 #fourth-box,
 .white-hover,
-.black-hover {
+.black-hover,
+.discount {
   display: none;
 }
 
@@ -652,6 +654,29 @@ footer .fas:hover {
     font-size: 0.6rem;
     color: var(--gray);
   }
+
+  /* Latest deals  */
+
+  .sub-news .img-wrapper {
+    width: 100%;
+    height: 110px;
+    background-color: var(--darkYellow);
+    position: relative;
+  }
+  .sub-news img {
+    clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
+  }
+  .discount {
+    display: block;
+    color:var(--darkColor);
+    position: absolute;
+    top:15px;
+    right:5px;
+    transform: rotate(30deg);
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
