@@ -391,7 +391,8 @@ footer .fas {
   padding: 10px;
 }
 
-.news h2 {
+.news h2,
+.news .latest-heading {
   color: var(--red);
   margin: 20px 0;
 }
@@ -422,6 +423,17 @@ footer .fas {
 .sub-news ul {
   font-size: 0.6rem;
   color: var(--gray);
+}
+
+/* Latest deals  */
+
+.news .latest-heading {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news .latest-heading > p {
+  margin-top: 25px;
 }
 
 /* Hover styling */
