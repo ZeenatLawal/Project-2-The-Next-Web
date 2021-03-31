@@ -293,6 +293,10 @@ footer .fas {
 
 /* Category styling */
 
+.categories {
+  margin: 10px;
+}
+
 .categories img {
   width: 96px;
   height: 96px;
@@ -303,7 +307,10 @@ footer .fas {
   flex-direction: column;
   width: 100%;
   color: var(--red);
-  margin: 10px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
 }
 
 .top-category {
@@ -311,15 +318,32 @@ footer .fas {
   background-size: cover;
   background-position: center;
   height: 400px;
+  width: 100%;
   padding: 10px;
   color: var(--whiteColor);
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.top-category p {
+  font-size: 0.8rem;
+}
+
+.top-category li{
+  font-size: 0.7rem;
+  color: var(--gray);
 }
 
 .categories #second-category,
 .categories #third-category {
   display: none;
+}
+
+.hover-underline {
+  color: var(--whiteColor);
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /* Hover styling */
@@ -330,7 +354,8 @@ footer .fas {
 
 .highlights a:hover,
 .white-hover a:hover,
-.footer-links a:hover {
+.footer-links a:hover,
+.top-category li > a:hover {
   color: var(--whiteColor);
 }
 
@@ -341,6 +366,11 @@ footer .fas {
 footer .fab:hover,
 footer .fas:hover {
   background-color: var(--darkColor);
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--gray);
 }
 
 @media screen and (min-width: 600px) {
