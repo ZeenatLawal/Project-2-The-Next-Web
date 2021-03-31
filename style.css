@@ -291,6 +291,24 @@ footer .fas {
   color: var(--gray);
 }
 
+/* Category styling */
+
+.categories img {
+  width: 96px;
+  height: 96px;
+  float: right;
+}
+
+.category {
+  flex-direction: column;
+  width: 100%;
+}
+
+.categories #second-category,
+.categories #third-category {
+  display: none;
+}
+
 /* Hover styling */
 
 .top-box:hover {
