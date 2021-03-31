@@ -349,7 +349,7 @@ footer .fas {
 }
 
 .center-category {
-  background-color: var(--lightRed);
+  background-color: var(--lighterRed);
   padding-left: 10px;
 }
 
@@ -463,7 +463,8 @@ footer .fas {
   color: var(--whiteColor);
 }
 
-.black-hover a:hover {
+.black-hover a:hover,
+.bottom-category li > a:hover {
   color: var(--darkColor);
 }
 
@@ -479,6 +480,12 @@ footer .fas:hover {
 
 .news h2:hover {
   color: var(--darkColor);
+}
+
+.sub-news h4:hover,
+.center-category h5:hover {
+  color: var(--red);
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 600px) {
@@ -803,6 +810,10 @@ footer .fas:hover {
 
   .deals img {
     clip-path: polygon(60% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .deals h4 {
+    margin-top: 20px;
   }
 
   .discount {
