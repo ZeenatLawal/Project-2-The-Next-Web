@@ -624,4 +624,34 @@ footer .fas:hover {
   #fourth-box {
     display: block;
   }
+
+   /* Categories styling */
+
+   .categories {
+    justify-content: space-between;
+  }
+  .category {
+    width: 32%;
+  }
+  
+  .categories #third-category {
+    display: flex;
+  }
+
+  .top-category {
+    height: 240px;
+
+  }
+
+  .top-category h3 {
+    font-size: 1.1rem;
+  }
+
+  .center-category h5 {
+    font-size: 0.75rem;
+  }
+
+  .bottom-category li{
+    font-size: 0.7rem;
+  }
 }
