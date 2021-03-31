@@ -196,10 +196,6 @@ footer .fas {
   padding-bottom: 10px;
 }
 
-.highlights ul > li {
-  margin-right: 10px;
-}
-
 /* Latest funding  */
 
 .latest {
@@ -343,7 +339,7 @@ footer .fas {
   font-size: 0.8rem;
 }
 
-.top-category li{
+.top-category li {
   font-size: 0.7rem;
   color: var(--gray);
 }
@@ -368,11 +364,14 @@ footer .fas {
   margin-top: 10px;
 }
 
-
-.bottom-category li{
+.bottom-category li {
   list-style: disc outside;
   padding: 10px 0;
   border-bottom: lightgray 1px solid;
+}
+
+.highlights ul > li {
+  margin-right: 10px;
 }
 
 .categories #second-category,
@@ -401,7 +400,7 @@ footer .fas {
 
 .news img {
   height: 60px;
-  width: 90px
+  width: 90px;
 }
 
 .sub-news {
@@ -414,7 +413,6 @@ footer .fas {
   margin-bottom: 5px;
   font-size: 0.8rem;
   color: var(--darkColor);
-
 }
 
 .sub-news .wrapper {
@@ -456,16 +454,15 @@ footer .fas {
   cursor: pointer;
 }
 
+.black-hover a:hover {
+  color: var(--darkColor);
+}
+
 .highlights a:hover,
 .white-hover a:hover,
 .footer-links a:hover,
 .top-category li > a:hover {
   color: var(--whiteColor);
-}
-
-.black-hover a:hover,
-.bottom-category li > a:hover {
-  color: var(--darkColor);
 }
 
 footer .fab:hover,
@@ -486,6 +483,10 @@ footer .fas:hover {
 .center-category h5:hover {
   color: var(--red);
   text-decoration: underline;
+}
+
+.bottom-category li > a:hover {
+  color: var(--darkColor);
 }
 
 @media screen and (min-width: 600px) {
@@ -613,20 +614,20 @@ footer .fas:hover {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .category {
     width: 49%;
   }
-  
+
   .categories #second-category {
     display: flex;
   }
 
   .top-category {
     height: 240px;
-
   }
 
-  .bottom-category li{
+  .bottom-category li {
     font-size: 0.7rem;
   }
 
@@ -650,13 +651,13 @@ footer .fas:hover {
     height: 110px;
     width: 100%;
   }
-  
+
   .sub-news .wrapper {
     flex-direction: column;
     margin-left: 0;
     margin-top: 5px;
   }
-  
+
   .sub-news ul {
     font-size: 0.6rem;
     color: var(--gray);
@@ -670,20 +671,22 @@ footer .fas:hover {
     background-color: var(--darkYellow);
     position: relative;
   }
+
   .deals img {
     clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 0);
   }
+
   .discount {
     display: block;
-    color:var(--darkColor);
+    color: var(--darkColor);
     position: absolute;
-    top:15px;
-    right:5px;
+    top: 15px;
+    right: 5px;
     transform: rotate(30deg);
     font-size: 0.8rem;
     font-weight: bold;
   }
-  
+
   .deals ul {
     color: var(--darkColor);
     font-size: 0.8rem;
@@ -760,22 +763,22 @@ footer .fas:hover {
     display: block;
   }
 
-   /* Categories styling */
+  /* Categories styling */
 
-   .categories {
+  .categories {
     justify-content: space-between;
   }
+
   .category {
     width: 32%;
   }
-  
+
   .categories #third-category {
     display: flex;
   }
 
   .top-category {
     height: 240px;
-
   }
 
   .top-category h3 {
@@ -786,7 +789,7 @@ footer .fas:hover {
     font-size: 0.75rem;
   }
 
-  .bottom-category li{
+  .bottom-category li {
     font-size: 0.7rem;
   }
 
@@ -818,13 +821,12 @@ footer .fas:hover {
 
   .discount {
     display: block;
-    color:var(--darkColor);
+    color: var(--darkColor);
     position: absolute;
-    top:20px;
-    right:5px;
+    top: 20px;
+    right: 5px;
     transform: rotate(35deg);
     font-size: 0.8rem;
     font-weight: bold;
   }
-
 }
