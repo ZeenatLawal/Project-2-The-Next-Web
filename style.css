@@ -729,4 +729,20 @@ footer .fas:hover {
   .bottom-category li{
     font-size: 0.7rem;
   }
+
+  /* Latest news styling  */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .sub-news h4 {
+    font-size: 0.7em;
+  }
+
+  .news img {
+    height: 130px;
+  }
 }
