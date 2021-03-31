@@ -302,6 +302,19 @@ footer .fas {
 .category {
   flex-direction: column;
   width: 100%;
+  color: var(--red);
+  margin: 10px;
+}
+
+.top-category {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(images/categories-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding: 10px;
+  color: var(--whiteColor);
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .categories #second-category,
