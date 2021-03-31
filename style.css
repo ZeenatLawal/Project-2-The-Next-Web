@@ -350,6 +350,14 @@ footer .fas {
   color: var(--red);
 }
 
+.bottom-category {
+  background-color: var(--lighterRed);
+}
+
+.bottom-category ul{
+  list-style-type: disc!important;
+}
+
 .categories #second-category,
 .categories #third-category {
   display: none;
