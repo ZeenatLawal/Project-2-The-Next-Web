@@ -596,6 +596,38 @@ footer .fas:hover {
   .bottom-category li{
     font-size: 0.7rem;
   }
+
+  /* Latest news styling  */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .sub-news {
+    flex-direction: column;
+  }
+
+  .sub-news h4 {
+    font-size: 0.6em;
+  }
+
+  .news img {
+    height: 110px;
+    width: 100%;
+  }
+  
+  .sub-news .wrapper {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  
+  .sub-news ul {
+    font-size: 0.6rem;
+    color: var(--gray);
+  }
 }
 
 @media screen and (min-width: 768px) {
