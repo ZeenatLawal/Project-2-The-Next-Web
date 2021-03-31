@@ -198,6 +198,11 @@ footer .fas {
 
 /* Latest funding  */
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .latest {
   padding: 10px;
 }
