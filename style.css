@@ -352,10 +352,15 @@ footer .fas {
 
 .bottom-category {
   background-color: var(--lighterRed);
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.bottom-category ul{
-  list-style-type: disc!important;
+
+.bottom-category li{
+  list-style: disc outside;
+  padding: 10px 0;
+  border-bottom: lightgray 1px solid;
 }
 
 .categories #second-category,
