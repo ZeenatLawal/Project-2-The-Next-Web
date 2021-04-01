@@ -94,6 +94,12 @@ header{
     display: none;
 }
 
+.white-hover {
+    a:hover {
+        color: var(--whiteColor);
+    }
+}
+
 // Main section 
 
 main {
@@ -106,7 +112,51 @@ main {
     flex-direction: column;
     height: 1000px;
     margin: 0 10px;
+    
+    img,
+    time {
+        display: none;
+    }
+
+    .highlight,
+    .sub-highlight {
+        height: 300px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: var(--whiteColor);
+        padding: 15px;
+    }  
+    h1,
+    h2 {
+        margin-bottom: 20px;
+        color: var(--whiteColor);
+    } 
+    ul {
+        li {
+            margin-right: 10px;
+        }
+    }
+    a:hover {
+        color: var(--whiteColor);
+    }
 }
+
+// Implement Mixins 
+@mixin bg-img($img-url) {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url($img-url);
+    background-size: cover;
+    background-position: center;
+  }
+  .opal {
+    @include bg-img("images/phone.jpeg");
+  }
+  .google {
+    @include bg-img("images/account.jpeg");
+  }
+  .mac {
+    @include bg-img("images/duplicate.jpeg");
+  }
 
 // Footer  
 
@@ -135,6 +185,11 @@ footer {
         border-radius: 50%;
         margin-right: 15px; 
     }
+    .fab:hover,
+    .fas:hover {
+        color: var(--darkColor);
+    }
+
     .footer-logo {
         justify-content: center;
         padding: 30px;
@@ -155,5 +210,9 @@ footer {
             margin: 0 5px;
         }
     }
-
+    .footer-links {
+        a:hover {
+            color: var(--whiteColor);
+        }
+    }
 }
