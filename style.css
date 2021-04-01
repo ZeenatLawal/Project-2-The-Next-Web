@@ -8,7 +8,7 @@
 }
 
 a {
-  color: var(--gray);
+  color: #898888;
 }
 
 .flex {
@@ -50,11 +50,11 @@ header nav .logo-img {
   width: auto;
 }
 header nav .yellow-nav {
-  background-color: var(--yellow);
+  background-color: #fd3;
   padding: 10px;
 }
 header nav .yellow-nav a {
-  color: var(--darkColor);
+  color: #000;
   font-size: 0.6rem;
   margin: auto;
 }
@@ -66,7 +66,7 @@ header .fas {
   width: auto;
 }
 header .fas .fa-bars {
-  color: var(--red);
+  color: #f42;
 }
 
 .white-hover,
@@ -75,11 +75,11 @@ header .fas .fa-bars {
 }
 .white-hover a:hover,
 .black-hover a:hover {
-  color: var(--darkColor);
+  color: #000;
 }
 
 .white-hover a:hover {
-  color: var(--whiteColor);
+  color: #fff;
 }
 
 main {
@@ -101,19 +101,19 @@ main {
   margin-bottom: 10px;
   flex-direction: column;
   justify-content: flex-end;
-  color: var(--whiteColor);
+  color: #fff;
   padding: 15px;
 }
 .higlights h1,
 .higlights h2 {
   margin-bottom: 20px;
-  color: var(--whiteColor);
+  color: #fff;
 }
 .higlights ul li {
   margin-right: 10px;
 }
 .higlights a:hover {
-  color: var(--whiteColor);
+  color: #fff;
 }
 
 .opal {
@@ -138,10 +138,10 @@ main {
   padding-bottom: 10px;
 }
 .latest-heading a:hover {
-  color: var(--darkColor);
+  color: #000;
 }
 .latest-heading h2 {
-  color: var(--darkColor);
+  color: #000;
 }
 
 .wrapper {
@@ -162,7 +162,7 @@ main {
 }
 .latest .latest-heading a,
 .latest .latest-heading h2 {
-  color: var(--red);
+  color: #f42;
 }
 .latest .box {
   margin-bottom: 20px;
@@ -170,7 +170,7 @@ main {
 .latest .box .top-box {
   position: relative;
   height: 100px;
-  background-color: var(--lightRed);
+  background-color: #ffebe7;
 }
 .latest .box .top-box img {
   width: 50px;
@@ -181,12 +181,12 @@ main {
 }
 .latest .box .top-box p {
   padding-left: 70px;
-  color: var(--darkColor);
+  color: #000;
 }
 .latest .box .top-box h4 {
   padding: 10px 10px 10px 70px;
-  background-color: var(--red);
-  color: var(--whiteColor);
+  background-color: #f42;
+  color: #fff;
 }
 .latest .box .top-box .value {
   font-weight: bold;
@@ -197,7 +197,7 @@ main {
 .latest .box .top-box .series {
   font-size: 0.7rem;
   line-height: 1.2rem;
-  color: var(--gray);
+  color: #898888;
 }
 .latest .box .top-box:hover {
   cursor: pointer;
@@ -205,26 +205,26 @@ main {
 .latest .box .center-box {
   padding: 10px;
   flex-direction: column;
-  background-color: var(--lighterRed);
+  background-color: #fffaf8;
 }
 .latest .box .center-box a {
   font-size: 0.8rem;
   padding: 7px 0;
-  color: var(--darkColor);
+  color: #000;
 }
 .latest .box .bottom-box {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
-  background-color: var(--lighterRed);
+  background-color: #fffaf8;
   padding: 10px;
 }
 .latest .box .bottom-box a {
   font-size: 0.8rem;
 }
 .latest .box .bottom-box p {
-  color: var(--darkColor);
+  color: #000;
 }
 .latest .box .bottom-box span {
-  color: var(--gray);
+  color: #898888;
 }
 
 .categories {
@@ -238,20 +238,20 @@ main {
 .categories .category {
   flex-direction: column;
   width: 100%;
-  color: var(--red);
+  color: #f42;
 }
 .categories h2 {
   margin-bottom: 10px;
-  color: var(--red);
+  color: #f42;
 }
 .categories h2:hover {
-  color: var(--darkColor);
+  color: #000;
 }
 .categories .top-category {
   height: 400px;
   width: 100%;
   padding: 10px;
-  color: var(--whiteColor);
+  color: #fff;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2px;
@@ -263,7 +263,7 @@ main {
 }
 .categories .top-category li {
   font-size: 0.7rem;
-  color: var(--gray);
+  color: #898888;
 }
 .categories .bg-1 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/categories-1.jpg");
@@ -281,7 +281,7 @@ main {
   background-position: center;
 }
 .categories .center-category {
-  background-color: var(--lighterRed);
+  background-color: #fffaf8;
   padding-left: 10px;
 }
 .categories .center-category p {
@@ -290,7 +290,7 @@ main {
   margin-bottom: 3px;
 }
 .categories .center-category a {
-  color: var(--red);
+  color: #f42;
 }
 .categories .bottom-category {
   margin-left: 20px;
@@ -306,13 +306,13 @@ main {
   display: none;
 }
 .categories .hover-underline {
-  color: var(--whiteColor);
+  color: #fff;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 .categories .hover-underline:hover {
   text-decoration: underline;
-  text-decoration-color: var(--gray);
+  text-decoration-color: #898888;
 }
 
 .news {
@@ -325,7 +325,7 @@ main {
 }
 .news h2,
 .news .latest-heading {
-  color: var(--red);
+  color: #f42;
   margin: 20px 0;
 }
 .news img {
@@ -340,7 +340,7 @@ main {
   margin-top: 2px;
   margin-bottom: 5px;
   font-size: 0.8rem;
-  color: var(--darkColor);
+  color: #000;
 }
 .news .sub-news .wrapper {
   flex-direction: column;
@@ -348,27 +348,27 @@ main {
 }
 .news .sub-news ul {
   font-size: 0.6rem;
-  color: var(--gray);
+  color: #898888;
 }
 .news h2:hover {
-  color: var(--darkColor);
+  color: #000;
 }
 
 .deals ul {
-  color: var(--darkColor);
+  color: #000;
   font-size: 0.8rem;
 }
 .deals ul .strike-through {
   text-decoration: line-through;
-  color: var(--gray);
+  color: #898888;
   font-size: 0.7rem;
 }
 
 footer {
-  background-color: var(--darkColor);
+  background-color: #000;
 }
 footer .bg-lighter {
-  background-color: var(--lightDarkColor);
+  background-color: #131313;
   flex-direction: column;
   align-items: center;
   padding: 25px;
@@ -383,7 +383,7 @@ footer .fas {
   height: 35px;
   padding: 10px;
   font-size: 0.9rem;
-  color: var(--whiteColor);
+  color: #fff;
   background-color: #343434;
   border: 2px solid #343434;
   border-radius: 50%;
@@ -404,15 +404,15 @@ footer .footer-logo img {
 }
 footer .footer-logo a .stackpath,
 footer .footer-logo img .stackpath {
-  color: var(--whiteColor);
+  color: #fff;
 }
 footer .footer-logo p {
-  color: var(--gray);
+  color: #898888;
   font-size: 0.6rem;
   margin: 0 5px;
 }
 footer .footer-links a:hover {
-  color: var(--whiteColor);
+  color: #fff;
 }
 
 @media screen and (min-width: 600px) {
@@ -421,7 +421,7 @@ footer .footer-links a:hover {
   }
   nav .dark-nav {
     display: flex;
-    background-color: var(--darkColor);
+    background-color: #000;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 5px;
@@ -493,8 +493,8 @@ nav .logo-img {
     margin-bottom: 15px;
   }
   .latest-heading #updates {
-    border-left: 1px var(--red) solid;
-    border-right: 1px var(--red) solid;
+    border-left: 1px #f42 solid;
+    border-right: 1px #f42 solid;
   }
 
   .boxes {
@@ -551,7 +551,7 @@ nav .logo-img {
   }
   .grid-container .sub-news ul {
     font-size: 0.6rem;
-    color: var(--gray);
+    color: #898888;
   }
   .grid-container .sub-news .img-wrapper {
     position: relative;
@@ -562,7 +562,7 @@ nav .logo-img {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: var(--darkYellow);
+    background-color: #f0c000;
     z-index: 1;
     width: 80px;
     height: 80px;
@@ -571,7 +571,7 @@ nav .logo-img {
 
   .discount {
     display: block;
-    color: var(--darkColor);
+    color: #000;
     transform: rotate(45deg);
     position: absolute;
     top: 25px;
@@ -582,7 +582,7 @@ nav .logo-img {
   }
 
   .deals ul {
-    color: var(--darkColor);
+    color: #000;
     font-size: 0.8rem;
   }
 }

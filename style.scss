@@ -24,7 +24,7 @@ $darkYellow: #f0c000;
 // Global styling 
 
 a {
-  color: var(--gray);
+  color: $gray;
   }
 
 .flex {
@@ -68,10 +68,10 @@ header{
       width: auto;
     }
     .yellow-nav {
-        background-color: var(--yellow);
+        background-color: $yellow;
         padding: 10px;
         a {
-          color: var(--darkColor);
+          color: $darkColor;
           font-size: 0.6rem;
           margin: auto;
         }
@@ -84,7 +84,7 @@ header{
         height: 100%;
         width: auto;
         .fa-bars {
-            color: var(--red);
+            color: $red;
         }
     }
 }
@@ -94,13 +94,13 @@ header{
     display: none;
 
     a:hover {
-        color: var(--darkColor);
+        color: $darkColor;
     }
 }
 
 .white-hover {
     a:hover {
-        color: var(--whiteColor);
+        color: $whiteColor;
     }
 }
 
@@ -128,13 +128,13 @@ main {
         margin-bottom: 10px;
         flex-direction: column;
         justify-content: flex-end;
-        color: var(--whiteColor);
+        color: $whiteColor;
         padding: 15px;
     }  
     h1,
     h2 {
         margin-bottom: 20px;
-        color: var(--whiteColor);
+        color: $whiteColor;
     } 
     ul {
         li {
@@ -142,7 +142,7 @@ main {
         }
     }
     a:hover {
-        color: var(--whiteColor);
+        color: $whiteColor;
     }
 }
 
@@ -169,11 +169,11 @@ main {
         padding-bottom: 10px;
     }
     a:hover {
-        color: var(--darkColor);
+        color: $darkColor;
     }
     
     h2 {
-        color: var(--darkColor);
+        color: $darkColor;
     }
 }
 
@@ -195,7 +195,7 @@ main {
         }
         a,
         h2 {
-            color: var(--red);
+            color: $red;
         }
     }
 
@@ -205,7 +205,7 @@ main {
         .top-box {
             position: relative;
             height: 100px;
-            background-color: var(--lightRed);
+            background-color: $lightRed;
 
             img {
                 width: 50px;
@@ -216,12 +216,12 @@ main {
             }
             p {
                 padding-left: 70px;
-                color: var(--darkColor);
+                color: $darkColor;
             }
             h4 {
                 padding: 10px 10px 10px 70px;
-                background-color: var(--red);
-                color: var(--whiteColor);
+                background-color: $red;
+                color: $whiteColor;
             }
             .value {
                 font-weight: bold;
@@ -232,7 +232,7 @@ main {
             .series {
                 font-size: 0.7rem;
                 line-height: 1.2rem;
-                color: var(--gray);
+                color: $gray;
             }
         }
 
@@ -243,28 +243,28 @@ main {
         .center-box {
             padding: 10px;
             flex-direction: column;
-            background-color: var(--lighterRed);
+            background-color: $lighterRed;
 
             a {
                 font-size: 0.8rem;
                 padding: 7px 0;
-                color: var(--darkColor);
+                color: $darkColor;
             }
         }
 
         .bottom-box {
             border-top: 1px solid rgba(255, 68, 34, 0.25);
-            background-color: var(--lighterRed);
+            background-color: $lighterRed;
             padding: 10px;
 
             a {
                 font-size: 0.8rem;
             }
             p {
-                color: var(--darkColor);
+                color: $darkColor;
             }
             span {
-                color: var(--gray);
+                color: $gray;
             }
         }
     }
@@ -284,20 +284,20 @@ main {
     .category {
         flex-direction: column;
         width: 100%;
-        color: var(--red);
+        color: $red;
     }
     h2 {
         margin-bottom: 10px;
-        color: var(--red);
+        color: $red;
     }
     h2:hover {
-        color: var(--darkColor);
+        color: $darkColor;
     }
     .top-category {
         height: 400px;
         width: 100%;
         padding: 10px;
-        color: var(--whiteColor);
+        color: $whiteColor;
         flex-direction: column;
         justify-content: flex-end;
         margin-bottom: 2px;
@@ -309,7 +309,7 @@ main {
         }
         li {
             font-size: 0.7rem;
-            color: var(--gray);
+            color: $gray;
         }
 
     }
@@ -323,7 +323,7 @@ main {
         @include bg-img("images/categories-3.jpg");
     }
     .center-category {
-        background-color: var(--lighterRed);
+        background-color: $lighterRed;
         padding-left: 10px;
 
         p {
@@ -332,7 +332,7 @@ main {
             margin-bottom: 3px;
         }
         a {
-            color: var(--red);
+            color: $red;
         }
     }
     .bottom-category {
@@ -350,13 +350,13 @@ main {
         display: none;
     }
     .hover-underline {
-        color: var(--whiteColor);
+        color: $whiteColor;
         margin-bottom: 5px;
         margin-top: 5px;
     }
     .hover-underline:hover {
         text-decoration: underline;
-        text-decoration-color: var(--gray);
+        text-decoration-color: $gray;
     }
 
 }
@@ -374,7 +374,7 @@ main {
     }
     h2,
     .latest-heading {
-        color: var(--red);
+        color: $red;
         margin: 20px 0;
     }
     img {
@@ -389,7 +389,7 @@ main {
             margin-top: 2px;
             margin-bottom: 5px;
             font-size: 0.8rem;
-            color: var(--darkColor);
+            color: $darkColor;
         }
         .wrapper {
             flex-direction: column;
@@ -397,11 +397,11 @@ main {
         }
         ul {
             font-size: 0.6rem;
-            color: var(--gray);
+            color: $gray;
         }
     }
     h2:hover {
-        color: var(--darkColor);
+        color: $darkColor;
     }
 
 }
@@ -410,12 +410,12 @@ main {
 
 .deals {
     ul {
-        color: var(--darkColor);
+        color: $darkColor;
         font-size: 0.8rem;
 
         .strike-through {
             text-decoration: line-through;
-            color: var(--gray);
+            color: $gray;
             font-size: 0.7rem;
         }
     }
@@ -425,9 +425,9 @@ main {
 // Footer  
 
 footer {
-    background-color: var(--darkColor);
+    background-color: $darkColor;
     .bg-lighter {
-        background-color: var(--lightDarkColor);
+        background-color: $lightDarkColor;
         flex-direction: column;
         align-items: center;
         padding: 25px;
@@ -443,7 +443,7 @@ footer {
         height: 35px;
         padding: 10px;
         font-size: 0.9rem;
-        color: var(--whiteColor);
+        color: $whiteColor;
         background-color: #343434;
         border: 2px solid #343434;
         border-radius: 50%;
@@ -464,19 +464,19 @@ footer {
             font-size: 0.6rem;
 
             .stackpath {
-                color: var(--whiteColor);
+                color: $whiteColor;
             }
         }
 
         p {
-            color: var(--gray);
+            color: $gray;
             font-size: 0.6rem;
             margin: 0 5px;
         }
     }
     .footer-links {
         a:hover {
-            color: var(--whiteColor);
+            color: $whiteColor;
         }
     }
 }
@@ -492,7 +492,7 @@ footer {
         }
         .dark-nav {
             display: flex;
-            background-color: var(--darkColor);
+            background-color: $darkColor;
             flex-direction: row;
             justify-content: space-between;
             padding-bottom: 5px;
@@ -576,8 +576,8 @@ footer {
             margin-bottom: 15px;
         }
         #updates {
-            border-left: 1px var(--red) solid;
-            border-right: 1px var(--red) solid;
+            border-left: 1px $red solid;
+            border-right: 1px $red solid;
         }
 
     }
@@ -647,7 +647,7 @@ footer {
             }
             ul {
                 font-size: 0.6rem;
-                color: var(--gray);
+                color: $gray;
             }
             .img-wrapper {
                 position: relative;
@@ -662,7 +662,7 @@ footer {
         position: absolute;
         top: 0;
         right: 0;
-        background-color: var(--darkYellow);
+        background-color: $darkYellow;
         z-index: 1;
         width: 80px;
         height: 80px;
@@ -671,7 +671,7 @@ footer {
 
     .discount {
         display: block;
-        color: var(--darkColor);
+        color: $darkColor;
         transform: rotate(45deg);
         position: absolute;
         top: 25px;
@@ -683,7 +683,7 @@ footer {
 
     .deals {
         ul {
-            color: var(--darkColor);
+            color: $darkColor;
             font-size: 0.8rem;
         }
     }
