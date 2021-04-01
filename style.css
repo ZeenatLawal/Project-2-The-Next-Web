@@ -451,6 +451,33 @@ nav .logo-img {
   nav .yellow-nav a {
     margin: 0;
   }
+
+  .highlights {
+    flex-direction: row;
+    height: 300px;
+    margin-top: 3px;
+  }
+  .highlights .sub-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .highlights .sub-container .sub-highlight {
+    font-size: 0.5rem;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .highlights .highlight {
+    margin-right: 10px;
+    font-size: 1rem;
+    height: 250px;
+    margin-bottom: 0;
+  }
+  .highlights h1,
+.highlights h2 {
+    margin-bottom: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

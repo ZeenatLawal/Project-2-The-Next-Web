@@ -526,4 +526,37 @@ footer {
             }
         }
     }
+
+    // Highlights
+
+    .highlights {
+        flex-direction: row;
+        height: 300px;
+        margin-top: 3px;
+
+        .sub-container {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .sub-highlight {
+                font-size: 0.5rem;
+                height: 120px;
+                margin-bottom: 0;
+            }
+        }
+        .highlight {
+            margin-right: 10px;
+            font-size: 1rem;
+            height: 250px;
+            margin-bottom: 0;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 5px;
+        }
+
+    }
 }
