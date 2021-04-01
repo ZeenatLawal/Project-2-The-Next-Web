@@ -662,6 +662,23 @@ nav .logo-img {
   .categories #third-category {
     display: flex;
   }
+
+  .news img {
+    height: 130px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .grid-container .sub-news h4 {
+    font-size: 0.7em;
+  }
+
+  .deals h4 {
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
