@@ -9,7 +9,7 @@
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-// Variabiles
+// Variables
 
 $darkColor: #000;
 $lightDarkColor: #131313;
@@ -20,3 +20,17 @@ $red: #f42;
 $lightRed: #ffebe7;
 $lighterRed: #fffaf8;
 $darkYellow: #f0c000;
+
+// Global styling 
+
+a {
+  color: var(--gray);
+  }
+
+.flex {
+  display: flex;
+}
+
+img {
+  cursor: pointer;
+}
