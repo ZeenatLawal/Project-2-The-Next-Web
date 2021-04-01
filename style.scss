@@ -34,3 +34,77 @@ a {
 img {
   cursor: pointer;
 }
+
+.display-m {
+    display: block;
+  }
+
+//Header 
+
+header{
+  position: fixed;
+  top: 0;
+  background-color: $whiteColor;
+  width: 100%;
+  z-index: 10; 
+
+  nav {
+    flex-direction: column;   
+
+    .dark-nav {
+        display: none;
+        li {
+            margin-right: 10px;
+        }
+    }
+    .white-nav {
+      justify-content: space-between;
+      li {
+        margin-right: 20px;
+      }
+    }
+    .logo-img {
+      height: 50px;
+      width: auto;
+    }
+    .yellow-nav {
+        background-color: var(--yellow);
+        padding: 10px;
+        a {
+          color: var(--darkColor);
+          font-size: 0.6rem;
+          margin: auto;
+        }
+      }
+    }
+    .fas {
+        font-size: 0.9rem;
+        border-left: lightgray solid 1px;
+        padding: 15px;
+        height: 100%;
+        width: auto;
+        .fa-bars {
+            color: var(--red);
+        }
+    }
+}
+
+.white-hover,
+.black-hover{
+    display: none;
+}
+
+// Main section 
+
+main {
+    margin-top: 90px;
+}
+
+// Highlights 
+
+.higlights {
+    flex-direction: column;
+    height: 1000px;
+    margin: 0 10px;
+}
+
