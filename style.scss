@@ -339,6 +339,43 @@ main {
 }
 
 
+// Latest news
+
+.news {
+    flex-direction: column;
+    padding: 10px;
+
+    h2,
+    .latest-heading {
+        color: var(--red);
+        margin: 20px 0;
+    }
+    img {
+        height: 60px;
+        width: 90px;
+    }
+    .sub-news {
+        flex-direction: row;
+        margin-bottom: 10px;
+
+        h4 {
+            margin-top: 2px;
+            margin-bottom: 5px;
+            font-size: 0.8rem;
+            color: var(--darkColor);
+        }
+        .wrapper {
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        ul {
+            font-size: 0.6rem;
+            color: var(--gray);
+        }
+    }
+
+}
+
 // Footer  
 
 footer {

@@ -295,6 +295,38 @@ main {
   margin-top: 5px;
 }
 
+.news {
+  flex-direction: column;
+  padding: 10px;
+}
+.news h2,
+.news .latest-heading {
+  color: var(--red);
+  margin: 20px 0;
+}
+.news img {
+  height: 60px;
+  width: 90px;
+}
+.news .sub-news {
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.news .sub-news h4 {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: var(--darkColor);
+}
+.news .sub-news .wrapper {
+  flex-direction: column;
+  margin-left: 10px;
+}
+.news .sub-news ul {
+  font-size: 0.6rem;
+  color: var(--gray);
+}
+
 footer {
   background-color: var(--darkColor);
 }
