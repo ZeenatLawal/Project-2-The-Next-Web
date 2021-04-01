@@ -76,6 +76,22 @@ header nav .yellow-nav {
   padding: 10px;
 }
 
+.highlights img,
+.highlights time {
+  display: none;
+}
+
+.news img {
+  height: 60px;
+  width: 90px;
+}
+
+.categories img {
+  width: 96px;
+  height: 96px;
+  float: right;
+}
+
 footer .footer-logo a,
 footer .footer-logo img {
   height: 0.6rem;
@@ -126,11 +142,6 @@ main {
   flex-direction: column;
   height: 1000px;
   margin: 0 10px;
-}
-
-.highlights img,
-.highlights time {
-  display: none;
 }
 
 .highlights .highlight,
@@ -227,17 +238,6 @@ main {
   position: relative;
   height: 100px;
   background-color: #ffebe7;
-}
-
-.news img {
-  height: 60px;
-  width: 90px;
-}
-
-.categories img {
-  width: 96px;
-  height: 96px;
-  float: right;
 }
 
 .latest .box .top-box img {
