@@ -622,5 +622,34 @@ footer {
             display: flex;
         }
     }
-  
+    
+    // Latest News 
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+        .sub-news {
+            flex-direction: column;
+
+            h4 {
+                font-size: 0.6em;
+            }
+            img {
+                height: 110px;
+                width: 100%;
+            }
+            .wrapper {
+                flex-direction: column;
+                margin-left: 0;
+                margin-top: 5px;
+            }
+            ul {
+                font-size: 0.6rem;
+                color: var(--gray);
+            }
+        }
+    }
+
 }

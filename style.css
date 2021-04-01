@@ -528,6 +528,31 @@ nav .logo-img {
   .categories #second-category {
     display: flex;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .grid-container .sub-news {
+    flex-direction: column;
+  }
+  .grid-container .sub-news h4 {
+    font-size: 0.6em;
+  }
+  .grid-container .sub-news img {
+    height: 110px;
+    width: 100%;
+  }
+  .grid-container .sub-news .wrapper {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .grid-container .sub-news ul {
+    font-size: 0.6rem;
+    color: var(--gray);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
