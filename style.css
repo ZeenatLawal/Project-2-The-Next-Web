@@ -553,6 +553,38 @@ nav .logo-img {
     font-size: 0.6rem;
     color: var(--gray);
   }
+  .grid-container .sub-news .img-wrapper {
+    position: relative;
+  }
+
+  .triangle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--darkYellow);
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+  }
+
+  .discount {
+    display: block;
+    color: var(--darkColor);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    z-index: 2;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .deals ul {
+    color: var(--darkColor);
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
