@@ -32,34 +32,43 @@ header {
   width: 100%;
   z-index: 10;
 }
+
 header nav {
   flex-direction: column;
 }
+
 header nav .dark-nav {
   display: none;
 }
+
 header nav .dark-nav li {
   margin-right: 10px;
 }
+
 header nav .white-nav {
   justify-content: space-between;
 }
+
 header nav .white-nav li {
   margin-right: 20px;
 }
+
 header nav .logo-img {
   height: 50px;
   width: auto;
 }
+
 header nav .yellow-nav {
   background-color: #fd3;
   padding: 10px;
 }
+
 header nav .yellow-nav a {
   color: #000;
   font-size: 0.6rem;
   margin: auto;
 }
+
 header .fas {
   font-size: 0.9rem;
   border-left: lightgray solid 1px;
