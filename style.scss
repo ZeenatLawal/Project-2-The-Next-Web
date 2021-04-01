@@ -599,5 +599,28 @@ footer {
             display: block;
         }
     }
+
+    // Categories 
+
+    .categories {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .category {
+            width: 49%;
+
+            .top-category {
+                height: 240px;
+            }
+            .bottom-category {
+                li {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        #second-category {
+            display: flex;
+        }
+    }
   
 }
