@@ -640,6 +640,28 @@ nav .logo-img {
   #fourth-box {
     display: block;
   }
+
+  .categories {
+    justify-content: space-between;
+  }
+  .categories .category {
+    width: 32%;
+  }
+  .categories .category .top-category {
+    height: 240px;
+  }
+  .categories .category .top-category h3 {
+    font-size: 1.1rem;
+  }
+  .categories .category .center-category h5 {
+    font-size: 0.75rem;
+  }
+  .categories .category .bottom-category li {
+    font-size: 0.7rem;
+  }
+  .categories #third-category {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
