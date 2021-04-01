@@ -194,6 +194,7 @@ footer .fas {
 .highlights h1,
 .highlights h2 {
   margin-bottom: 20px;
+  color: var(--whiteColor);
 }
 
 .latest-heading li {
