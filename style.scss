@@ -92,6 +92,10 @@ header{
 .white-hover,
 .black-hover{
     display: none;
+
+    a:hover {
+        color: var(--darkColor);
+    }
 }
 
 .white-hover {
@@ -164,6 +168,13 @@ main {
     li {
         padding-bottom: 10px;
     }
+    a:hover {
+        color: var(--darkColor);
+    }
+    
+    h2 {
+        color: var(--darkColor);
+    }
 }
 
 .wrapper {
@@ -225,6 +236,10 @@ main {
             }
         }
 
+        .top-box:hover {
+            cursor: pointer;
+        }
+
         .center-box {
             padding: 10px;
             flex-direction: column;
@@ -274,6 +289,9 @@ main {
     h2 {
         margin-bottom: 10px;
         color: var(--red);
+    }
+    h2:hover {
+        color: var(--darkColor);
     }
     .top-category {
         height: 400px;
@@ -336,6 +354,11 @@ main {
         margin-bottom: 5px;
         margin-top: 5px;
     }
+    .hover-underline:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--gray);
+    }
+
 }
 
 
@@ -345,6 +368,10 @@ main {
     flex-direction: column;
     padding: 10px;
 
+    .latest-heading {
+        flex-direction: row;
+        justify-content: space-between;
+    }
     h2,
     .latest-heading {
         color: var(--red);
@@ -373,8 +400,27 @@ main {
             color: var(--gray);
         }
     }
+    h2:hover {
+        color: var(--darkColor);
+    }
 
 }
+
+// Latest deals
+
+.deals {
+    ul {
+        color: var(--darkColor);
+        font-size: 0.8rem;
+
+        .strike-through {
+            text-decoration: line-through;
+            color: var(--gray);
+            font-size: 0.7rem;
+        }
+    }
+}
+
 
 // Footer  
 
@@ -405,7 +451,7 @@ footer {
     }
     .fab:hover,
     .fas:hover {
-        color: var(--darkColor);
+        background-color: (--darkColor);
     }
 
     .footer-logo {

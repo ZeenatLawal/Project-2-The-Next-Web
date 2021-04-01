@@ -73,6 +73,10 @@ header .fas .fa-bars {
 .black-hover {
   display: none;
 }
+.white-hover a:hover,
+.black-hover a:hover {
+  color: var(--darkColor);
+}
 
 .white-hover a:hover {
   color: var(--whiteColor);
@@ -133,6 +137,12 @@ main {
 .latest-heading li {
   padding-bottom: 10px;
 }
+.latest-heading a:hover {
+  color: var(--darkColor);
+}
+.latest-heading h2 {
+  color: var(--darkColor);
+}
 
 .wrapper {
   max-width: 1200px;
@@ -189,6 +199,9 @@ main {
   line-height: 1.2rem;
   color: var(--gray);
 }
+.latest .box .top-box:hover {
+  cursor: pointer;
+}
 .latest .box .center-box {
   padding: 10px;
   flex-direction: column;
@@ -230,6 +243,9 @@ main {
 .categories h2 {
   margin-bottom: 10px;
   color: var(--red);
+}
+.categories h2:hover {
+  color: var(--darkColor);
 }
 .categories .top-category {
   height: 400px;
@@ -294,10 +310,18 @@ main {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+.categories .hover-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--gray);
+}
 
 .news {
   flex-direction: column;
   padding: 10px;
+}
+.news .latest-heading {
+  flex-direction: row;
+  justify-content: space-between;
 }
 .news h2,
 .news .latest-heading {
@@ -325,6 +349,19 @@ main {
 .news .sub-news ul {
   font-size: 0.6rem;
   color: var(--gray);
+}
+.news h2:hover {
+  color: var(--darkColor);
+}
+
+.deals ul {
+  color: var(--darkColor);
+  font-size: 0.8rem;
+}
+.deals ul .strike-through {
+  text-decoration: line-through;
+  color: var(--gray);
+  font-size: 0.7rem;
 }
 
 footer {
@@ -354,7 +391,7 @@ footer .fas {
 }
 footer .fab:hover,
 footer .fas:hover {
-  color: var(--darkColor);
+  background-color: --darkColor;
 }
 footer .footer-logo {
   justify-content: center;
