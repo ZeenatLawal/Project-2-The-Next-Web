@@ -737,4 +737,21 @@ footer {
         }
     }
 
+    // Latest funding
+
+    .latest-heading {
+        flex-direction: row;
+        justify-content: space-between;
+
+        ul {
+            flex-direction: row;
+        }
+    }
+    .box {
+        width: 24%;
+    }
+    #fourth-box {
+        display: block;
+    }
+
 }

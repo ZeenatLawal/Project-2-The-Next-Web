@@ -624,6 +624,22 @@ nav .logo-img {
     font-size: 1.3rem;
     line-height: 1.3rem;
   }
+
+  .latest-heading {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .latest-heading ul {
+    flex-direction: row;
+  }
+
+  .box {
+    width: 24%;
+  }
+
+  #fourth-box {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
