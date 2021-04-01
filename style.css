@@ -586,5 +586,44 @@ nav .logo-img {
     font-size: 0.8rem;
   }
 }
+@media screen and (min-width: 768px) {
+  .highlights {
+    height: 550px;
+  }
+  .highlights .highlight {
+    width: 70%;
+    height: 500px;
+    position: relative;
+  }
+  .highlights .highlight img {
+    display: block;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .highlights .highlight h1 {
+    font-size: 3.1rem;
+    line-height: 3rem;
+  }
+  .highlights .highlight time {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .highlights .sub-container {
+    width: 30%;
+    height: 500px;
+  }
+  .highlights .sub-container .sub-highlight {
+    height: 245px;
+  }
+  .highlights .sub-container .sub-highlight h2 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

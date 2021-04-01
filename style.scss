@@ -689,3 +689,52 @@ footer {
     }
 
 }
+
+// Media query desktop size 
+
+@media screen and (min-width: 768px) {
+    // Highlights 
+
+    .highlights {
+        height: 550px;
+
+        .highlight {
+            width: 70%;
+            height: 500px;
+            position: relative;
+
+            img {
+                display: block;
+                width: 40%;
+                height: auto;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+            h1 {
+                font-size: 3.1rem;
+                line-height: 3rem;
+            }
+            time {
+                display: block;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+        }
+        .sub-container {
+            width: 30%;
+            height: 500px;
+
+            .sub-highlight {
+                height: 245px;
+
+                h2 {
+                    font-size: 1.3rem;
+                    line-height: 1.3rem;
+                }
+            }
+        }
+    }
+
+}
