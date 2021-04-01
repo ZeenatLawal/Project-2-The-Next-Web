@@ -41,9 +41,17 @@ header nav .dark-nav {
   display: none;
 }
 
+.latest-heading li {
+  padding-bottom: 10px;
+}
+
 footer .bg-lighter li {
   font-size: 0.7rem;
   margin: 25px 8px 8px 10px;
+}
+
+.highlights ul li {
+  margin-right: 10px;
 }
 
 header nav .dark-nav li {
@@ -135,10 +143,6 @@ main {
   color: #fff;
 }
 
-.highlights ul li {
-  margin-right: 10px;
-}
-
 .highlights a:hover {
   color: #fff;
 }
@@ -159,10 +163,6 @@ main {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/duplicate.jpeg");
   background-size: cover;
   background-position: center;
-}
-
-.latest-heading li {
-  padding-bottom: 10px;
 }
 
 .latest-heading a:hover {
@@ -203,6 +203,11 @@ main {
   margin: 20px 0;
 }
 
+.categories h2 {
+  margin-bottom: 10px;
+  color: #f42;
+}
+
 .latest .latest-heading a,
 .latest .latest-heading h2 {
   color: #f42;
@@ -223,18 +228,24 @@ main {
   width: 90px;
 }
 
-.latest .box .top-box img {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.categories img {
+  width: 96px;
+  height: 96px;
+  float: right;
 }
 
 footer .footer-logo a,
 footer .footer-logo img {
   height: 0.6rem;
   font-size: 0.6rem;
+}
+
+.latest .box .top-box img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 footer .footer-logo p {
@@ -247,20 +258,27 @@ footer .footer-logo p {
   font-size: 0.8rem;
 }
 
-.latest .box .top-box p {
-  padding-left: 70px;
-  color: #000;
-}
-
 .categories .center-category p {
   margin-top: 10px;
   font-size: 0.7rem;
   margin-bottom: 3px;
 }
 
+.latest .box .top-box p {
+  padding-left: 70px;
+  color: #000;
+}
+
 .news .sub-news {
   flex-direction: row;
   margin-bottom: 10px;
+}
+
+.news .sub-news h4 {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: #000;
 }
 
 .latest .box .top-box h4 {
@@ -328,20 +346,9 @@ footer .footer-links a:hover {
   margin: 10px;
 }
 
-.categories img {
-  width: 96px;
-  height: 96px;
-  float: right;
-}
-
 .categories .category {
   flex-direction: column;
   width: 100%;
-  color: #f42;
-}
-
-.categories h2 {
-  margin-bottom: 10px;
   color: #f42;
 }
 
@@ -424,13 +431,6 @@ footer .footer-links a:hover {
 .news .latest-heading {
   flex-direction: row;
   justify-content: space-between;
-}
-
-.news .sub-news h4 {
-  margin-top: 2px;
-  margin-bottom: 5px;
-  font-size: 0.8rem;
-  color: #000;
 }
 
 .news .sub-news .wrapper {
