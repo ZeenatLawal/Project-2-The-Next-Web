@@ -41,6 +41,11 @@ header nav .dark-nav {
   display: none;
 }
 
+footer .bg-lighter li {
+  font-size: 0.7rem;
+  margin: 25px 8px 8px 10px;
+}
+
 header nav .dark-nav li {
   margin-right: 10px;
 }
@@ -182,9 +187,20 @@ main {
   flex-direction: column;
 }
 
+.deals ul {
+  color: #000;
+  font-size: 0.8rem;
+}
+
 .latest .latest-heading ul {
   flex-direction: column-reverse;
   margin-top: 10px;
+}
+
+.news h2,
+.news .latest-heading {
+  color: #f42;
+  margin: 20px 0;
 }
 
 .latest .latest-heading a,
@@ -200,6 +216,11 @@ main {
   position: relative;
   height: 100px;
   background-color: #ffebe7;
+}
+
+.news img {
+  height: 60px;
+  width: 90px;
 }
 
 .latest .box .top-box img {
@@ -222,9 +243,24 @@ footer .footer-logo p {
   margin: 0 5px;
 }
 
+.categories .top-category p {
+  font-size: 0.8rem;
+}
+
 .latest .box .top-box p {
   padding-left: 70px;
   color: #000;
+}
+
+.categories .center-category p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+  margin-bottom: 3px;
+}
+
+.news .sub-news {
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .latest .box .top-box h4 {
@@ -254,6 +290,10 @@ footer .footer-logo p {
   padding: 10px;
   flex-direction: column;
   background-color: #fffaf8;
+}
+
+.categories .center-category a {
+  color: #f42;
 }
 
 footer .footer-links a:hover {
@@ -321,10 +361,6 @@ footer .footer-links a:hover {
   background-position: center;
 }
 
-.categories .top-category p {
-  font-size: 0.8rem;
-}
-
 .categories .top-category li {
   font-size: 0.7rem;
   color: #898888;
@@ -351,16 +387,6 @@ footer .footer-links a:hover {
 .categories .center-category {
   background-color: #fffaf8;
   padding-left: 10px;
-}
-
-.categories .center-category p {
-  margin-top: 10px;
-  font-size: 0.7rem;
-  margin-bottom: 3px;
-}
-
-.categories .center-category a {
-  color: #f42;
 }
 
 .categories .bottom-category {
@@ -400,22 +426,6 @@ footer .footer-links a:hover {
   justify-content: space-between;
 }
 
-.news h2,
-.news .latest-heading {
-  color: #f42;
-  margin: 20px 0;
-}
-
-.news img {
-  height: 60px;
-  width: 90px;
-}
-
-.news .sub-news {
-  flex-direction: row;
-  margin-bottom: 10px;
-}
-
 .news .sub-news h4 {
   margin-top: 2px;
   margin-bottom: 5px;
@@ -437,11 +447,6 @@ footer .footer-links a:hover {
   color: #000;
 }
 
-.deals ul {
-  color: #000;
-  font-size: 0.8rem;
-}
-
 .deals ul .strike-through {
   text-decoration: line-through;
   color: #898888;
@@ -459,11 +464,6 @@ footer .bg-lighter {
   padding: 25px;
 }
 
-footer .bg-lighter li {
-  font-size: 0.7rem;
-  margin: 25px 8px 8px 10px;
-}
-
 footer .fab,
 footer .fas {
   width: 35px;
@@ -479,7 +479,7 @@ footer .fas {
 
 footer .fab:hover,
 footer .fas:hover {
-  background-color: --darkColor;
+  background-color: #000;
 }
 
 footer .footer-logo {
@@ -702,7 +702,7 @@ footer .footer-logo img .stackpath {
     height: 500px;
     position: relative;
   }
-  
+
   .news img {
     height: 130px;
   }
