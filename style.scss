@@ -41,9 +41,6 @@ img {
   display: none;
 }
 
-.display-m {
-    display: block;
-  }
 
 //Header 
 
@@ -89,9 +86,7 @@ header{
         padding: 15px;
         height: 100%;
         width: auto;
-        .fa-bars {
-            color: $red;
-        }
+        
     }
 }
 
@@ -104,6 +99,14 @@ header{
     }
 }
 
+
+.display-m {
+    display: block;
+}
+
+.fa-bars {
+    color: $red;
+}
 .white-hover {
     a:hover {
         color: $whiteColor;
@@ -516,6 +519,13 @@ footer {
                 align-items: center;
             }
         }
+        .yellow-nav {
+            padding-left: 10px;
+            
+            a {
+                margin: 0;
+            }
+        }
         .fa-bars,
         .logo-img {
             display: none;
@@ -524,14 +534,9 @@ footer {
             font-size: 0.6rem;
             padding: 10px;
         }
-        .yellow-nav {
-            padding-left: 10px;
-
-            a {
-                margin: 0;
-            }
-        }
+        
     }
+    
 
     // Highlights
 

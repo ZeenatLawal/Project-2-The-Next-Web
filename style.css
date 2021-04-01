@@ -25,10 +25,6 @@ img {
   display: none;
 }
 
-.display-m {
-  display: block;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -71,9 +67,6 @@ header .fas {
   height: 100%;
   width: auto;
 }
-header .fas .fa-bars {
-  color: #f42;
-}
 
 .white-hover,
 .black-hover {
@@ -82,6 +75,14 @@ header .fas .fa-bars {
 .white-hover a:hover,
 .black-hover a:hover {
   color: #000;
+}
+
+.display-m {
+  display: block;
+}
+
+.fa-bars {
+  color: #f42;
 }
 
 .white-hover a:hover {
@@ -443,6 +444,12 @@ footer .footer-links a:hover {
     display: flex;
     align-items: center;
   }
+  nav .yellow-nav {
+    padding-left: 10px;
+  }
+  nav .yellow-nav a {
+    margin: 0;
+  }
   nav .fa-bars,
 nav .logo-img {
     display: none;
@@ -450,12 +457,6 @@ nav .logo-img {
   nav .fa-search {
     font-size: 0.6rem;
     padding: 10px;
-  }
-  nav .yellow-nav {
-    padding-left: 10px;
-  }
-  nav .yellow-nav a {
-    margin: 0;
   }
 
   .highlights {
