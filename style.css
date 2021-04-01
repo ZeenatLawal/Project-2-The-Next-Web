@@ -92,17 +92,17 @@ main {
   margin-top: 90px;
 }
 
-.higlights {
+.highlights {
   flex-direction: column;
   height: 1000px;
   margin: 0 10px;
 }
-.higlights img,
-.higlights time {
+.highlights img,
+.highlights time {
   display: none;
 }
-.higlights .highlight,
-.higlights .sub-highlight {
+.highlights .highlight,
+.highlights .sub-highlight {
   height: 300px;
   margin-bottom: 10px;
   flex-direction: column;
@@ -110,15 +110,15 @@ main {
   color: #fff;
   padding: 15px;
 }
-.higlights h1,
-.higlights h2 {
+.highlights h1,
+.highlights h2 {
   margin-bottom: 20px;
   color: #fff;
 }
-.higlights ul li {
+.highlights ul li {
   margin-right: 10px;
 }
-.higlights a:hover {
+.highlights a:hover {
   color: #fff;
 }
 
