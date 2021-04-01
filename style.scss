@@ -147,16 +147,197 @@ main {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url($img-url);
     background-size: cover;
     background-position: center;
-  }
-  .opal {
+}
+.opal {
     @include bg-img("images/phone.jpeg");
-  }
-  .google {
+}
+.google {
     @include bg-img("images/account.jpeg");
-  }
-  .mac {
+}
+.mac {
     @include bg-img("images/duplicate.jpeg");
-  }
+}
+
+// Latest funding 
+
+.latest-heading {
+    li {
+        padding-bottom: 10px;
+    }
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.latest {
+    padding: 10px;
+    flex-direction: column;
+
+    .latest-heading {
+        flex-direction: column;
+        
+        ul {
+            flex-direction: column-reverse;
+            margin-top: 10px;
+        }
+        a,
+        h2 {
+            color: var(--red);
+        }
+    }
+
+    .box {
+        margin-bottom: 20px;
+
+        .top-box {
+            position: relative;
+            height: 100px;
+            background-color: var(--lightRed);
+
+            img {
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+            p {
+                padding-left: 70px;
+                color: var(--darkColor);
+            }
+            h4 {
+                padding: 10px 10px 10px 70px;
+                background-color: var(--red);
+                color: var(--whiteColor);
+            }
+            .value {
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-top: 10px;
+                line-height: 1.4rem;
+            }
+            .series {
+                font-size: 0.7rem;
+                line-height: 1.2rem;
+                color: var(--gray);
+            }
+        }
+
+        .center-box {
+            padding: 10px;
+            flex-direction: column;
+            background-color: var(--lighterRed);
+
+            a {
+                font-size: 0.8rem;
+                padding: 7px 0;
+                color: var(--darkColor);
+            }
+        }
+
+        .bottom-box {
+            border-top: 1px solid rgba(255, 68, 34, 0.25);
+            background-color: var(--lighterRed);
+            padding: 10px;
+
+            a {
+                font-size: 0.8rem;
+            }
+            p {
+                color: var(--darkColor);
+            }
+            span {
+                color: var(--gray);
+            }
+        }
+    }
+}
+
+// Categories
+
+.categories {
+    margin: 10px;
+
+    img {
+        width: 96px;
+        height: 96px;
+        float: right;
+    }
+
+    .category {
+        flex-direction: column;
+        width: 100%;
+        color: var(--red);
+    }
+    h2 {
+        margin-bottom: 10px;
+        color: var(--red);
+    }
+    .top-category {
+        height: 400px;
+        width: 100%;
+        padding: 10px;
+        color: var(--whiteColor);
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 2px;
+        background-size: cover;
+        background-position: center;
+
+        p {
+            font-size: 0.8rem;
+        }
+        li {
+            font-size: 0.7rem;
+            color: var(--gray);
+        }
+
+    }
+    .bg-1 {
+        @include bg-img("images/categories-1.jpg");
+    }
+    .bg-2 {
+        @include bg-img("images/categories-2.jpg");
+    }
+    .bg-3 {
+        @include bg-img("images/categories-3.jpg");
+    }
+    .center-category {
+        background-color: var(--lighterRed);
+        padding-left: 10px;
+
+        p {
+            margin-top: 10px;
+            font-size: 0.7rem;
+            margin-bottom: 3px;
+        }
+        a {
+            color: var(--red);
+        }
+    }
+    .bottom-category {
+        margin-left: 20px;
+        margin-top: 10px;
+
+        li {
+            list-style: disc outside;
+            padding: 10px 0;
+            border-bottom: lightgray 1px solid;
+        }
+    }
+    #second-category,
+    #third-category {
+        display: none;
+    }
+    .hover-underline {
+        color: var(--whiteColor);
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
 
 // Footer  
 

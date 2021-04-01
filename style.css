@@ -130,6 +130,171 @@ main {
   background-position: center;
 }
 
+.latest-heading li {
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.latest {
+  padding: 10px;
+  flex-direction: column;
+}
+.latest .latest-heading {
+  flex-direction: column;
+}
+.latest .latest-heading ul {
+  flex-direction: column-reverse;
+  margin-top: 10px;
+}
+.latest .latest-heading a,
+.latest .latest-heading h2 {
+  color: var(--red);
+}
+.latest .box {
+  margin-bottom: 20px;
+}
+.latest .box .top-box {
+  position: relative;
+  height: 100px;
+  background-color: var(--lightRed);
+}
+.latest .box .top-box img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.latest .box .top-box p {
+  padding-left: 70px;
+  color: var(--darkColor);
+}
+.latest .box .top-box h4 {
+  padding: 10px 10px 10px 70px;
+  background-color: var(--red);
+  color: var(--whiteColor);
+}
+.latest .box .top-box .value {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.4rem;
+}
+.latest .box .top-box .series {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  color: var(--gray);
+}
+.latest .box .center-box {
+  padding: 10px;
+  flex-direction: column;
+  background-color: var(--lighterRed);
+}
+.latest .box .center-box a {
+  font-size: 0.8rem;
+  padding: 7px 0;
+  color: var(--darkColor);
+}
+.latest .box .bottom-box {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  background-color: var(--lighterRed);
+  padding: 10px;
+}
+.latest .box .bottom-box a {
+  font-size: 0.8rem;
+}
+.latest .box .bottom-box p {
+  color: var(--darkColor);
+}
+.latest .box .bottom-box span {
+  color: var(--gray);
+}
+
+.categories {
+  margin: 10px;
+}
+.categories img {
+  width: 96px;
+  height: 96px;
+  float: right;
+}
+.categories .category {
+  flex-direction: column;
+  width: 100%;
+  color: var(--red);
+}
+.categories h2 {
+  margin-bottom: 10px;
+  color: var(--red);
+}
+.categories .top-category {
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  color: var(--whiteColor);
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2px;
+  background-size: cover;
+  background-position: center;
+}
+.categories .top-category p {
+  font-size: 0.8rem;
+}
+.categories .top-category li {
+  font-size: 0.7rem;
+  color: var(--gray);
+}
+.categories .bg-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/categories-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.categories .bg-2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/categories-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.categories .bg-3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/categories-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.categories .center-category {
+  background-color: var(--lighterRed);
+  padding-left: 10px;
+}
+.categories .center-category p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+  margin-bottom: 3px;
+}
+.categories .center-category a {
+  color: var(--red);
+}
+.categories .bottom-category {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.categories .bottom-category li {
+  list-style: disc outside;
+  padding: 10px 0;
+  border-bottom: lightgray 1px solid;
+}
+.categories #second-category,
+.categories #third-category {
+  display: none;
+}
+.categories .hover-underline {
+  color: var(--whiteColor);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 footer {
   background-color: var(--darkColor);
 }
