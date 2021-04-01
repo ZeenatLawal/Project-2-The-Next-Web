@@ -30,12 +30,15 @@
 @font6: 0.6rem;
 @font7: 0.7rem;
 @font8: 0.8rem;
+@font16: 1rem;
 
 //Image
 .background {
   background-size: cover;
   background-position: center;
 }
+
+// Global styling
 
 a {
   color: @gray;
@@ -49,6 +52,8 @@ img {
   cursor: pointer;
 }
 
+// Header styling
+
 header {
   position: fixed;
   top: 0;
@@ -60,7 +65,7 @@ header {
 nav {
   flex-direction: @flexColumn;
   .fas {
-    font-size: 0.9rem;
+    font-size: @font16 - 0.1rem;
     border-left: lightgray solid 1px;
     padding: 15px;
     height: 100%;
@@ -171,7 +176,7 @@ footer {
     width: 35px;
     height: 35px;
     padding: @tenRight;
-    font-size: 0.9rem;
+    font-size: @font16 - 0.1rem;
     color: @whiteColor;
     background-color: @lighterDark;
     border: 2px solid @lighterDark;
@@ -193,7 +198,7 @@ footer {
     padding: 30px;
     a,
     img {
-      height: 0.6rem;
+      height: @font6;
       font-size: @font6;
     }
     p {
@@ -282,7 +287,7 @@ footer {
 .highlight {
   @media screen and (min-width: 600px) {
     margin-right: @tenRight;
-    font-size: 1rem;
+    font-size: @font16;
     height: 250px;
   }
   @media screen and (min-width: 768px) {
@@ -299,7 +304,7 @@ footer {
     }
     h1 {
       font-size: 3.1rem;
-      line-height: 3rem;
+      line-height: @font16 + 2rem;
     }
   }
 }
@@ -312,8 +317,8 @@ footer {
   @media screen and (min-width: 768px) {
     height: 245px;
     h2 {
-      font-size: 1.3rem;
-      line-height: 1.3rem;
+      font-size: @font16 + 0.3rem;
+      line-height: @font16 + 0.3rem;
     }
   }
 }
@@ -352,7 +357,7 @@ footer {
     li {
       padding-left: 20px;
       padding-right: 20px;
-      height: 1rem;
+      height: @font16;
       margin-bottom: 15px;
     }
     #updates {
@@ -393,13 +398,13 @@ footer {
     }
     .value {
       font-weight: bold;
-      font-size: 1.2rem;
+      font-size: @font16 + 0.2rem;
       margin-top: @tenRight;
-      line-height: 1.4rem;
+      line-height: @font16 + 0.4rem;
     }
     .series {
       font-size: @font7;
-      line-height: 1.2rem;
+      line-height: @font16 + 0.2rem;
       color: @gray;
     }
   }
@@ -660,12 +665,12 @@ footer {
 .deals {
   ul {
     color: @darkColor;
-    font-size: 0.8rem;
+    font-size: @font8;
   }
   @media screen and (min-width: 600px) {
     ul {
       color: @darkColor;
-      font-size: 0.8rem;
+      font-size: @font8;
     }
   }
   @media screen and (min-width: 768px) {
@@ -750,7 +755,7 @@ footer .fas:hover {
     top: 25px;
     right: 5px;
     z-index: 2;
-    font-size: 0.8rem;
+    font-size: @font8;
     font-weight: bold;
   }
 }
