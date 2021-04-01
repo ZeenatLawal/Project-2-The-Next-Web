@@ -480,3 +480,50 @@ footer {
         }
     }
 }
+
+
+// Media query tablet size 
+
+@media screen and (min-width: 600px) {
+    // Navbar 
+    nav {
+        a {
+            font-size: 0.6rem;
+        }
+        .dark-nav {
+            display: flex;
+            background-color: var(--darkColor);
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 5px;
+            padding-left: 10px;
+
+            .white-hover {
+                display: flex;
+            }
+        }
+        .white-nav {
+            padding-left: 10px;
+
+            .black-hover {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .fa-bars,
+        .logo-img {
+            display: none;
+        }
+        .fa-search {
+            font-size: 0.6rem;
+            padding: 10px;
+        }
+        .yellow-nav {
+            padding-left: 10px;
+
+            a {
+                margin: 0;
+            }
+        }
+    }
+}

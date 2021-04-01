@@ -415,4 +415,42 @@ footer .footer-links a:hover {
   color: var(--whiteColor);
 }
 
+@media screen and (min-width: 600px) {
+  nav a {
+    font-size: 0.6rem;
+  }
+  nav .dark-nav {
+    display: flex;
+    background-color: var(--darkColor);
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+  nav .dark-nav .white-hover {
+    display: flex;
+  }
+  nav .white-nav {
+    padding-left: 10px;
+  }
+  nav .white-nav .black-hover {
+    display: flex;
+    align-items: center;
+  }
+  nav .fa-bars,
+nav .logo-img {
+    display: none;
+  }
+  nav .fa-search {
+    font-size: 0.6rem;
+    padding: 10px;
+  }
+  nav .yellow-nav {
+    padding-left: 10px;
+  }
+  nav .yellow-nav a {
+    margin: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
