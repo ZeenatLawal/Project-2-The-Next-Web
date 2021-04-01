@@ -559,4 +559,45 @@ footer {
         }
 
     }
+    
+    // Latest funding
+
+    .latest-heading {
+        align-items: flex-start;
+
+        ul {
+            flex-direction: row-reverse;
+            margin-top: 10px;
+        }
+        li {
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 1rem;
+            margin-bottom: 15px;
+        }
+        #updates {
+            border-left: 1px var(--red) solid;
+            border-right: 1px var(--red) solid;
+        }
+
+    }
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            width: 32%;
+
+            .center-box,
+            .bottom-box {
+                a {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        #third-box {
+            display: block;
+        }
+    }
+  
 }

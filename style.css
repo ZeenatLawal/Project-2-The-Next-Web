@@ -478,6 +478,39 @@ nav .logo-img {
 .highlights h2 {
     margin-bottom: 5px;
   }
+
+  .latest-heading {
+    align-items: flex-start;
+  }
+  .latest-heading ul {
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+  .latest-heading li {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1rem;
+    margin-bottom: 15px;
+  }
+  .latest-heading #updates {
+    border-left: 1px var(--red) solid;
+    border-right: 1px var(--red) solid;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .boxes .box {
+    width: 32%;
+  }
+  .boxes .box .center-box a,
+.boxes .box .bottom-box a {
+    font-size: 0.7rem;
+  }
+  .boxes #third-box {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
