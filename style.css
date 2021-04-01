@@ -16,6 +16,7 @@
   --red: #f42;
   --lightRed: #ffebe7;
   --lighterRed: #fffaf8;
+  --darkYellow: #f0c000;
 }
 
 a {
@@ -24,6 +25,10 @@ a {
 
 .flex {
   display: flex;
+}
+
+img {
+  cursor: pointer;
 }
 
 header {
@@ -49,7 +54,8 @@ time,
 #third-box,
 #fourth-box,
 .white-hover,
-.black-hover {
+.black-hover,
+.triangle {
   display: none;
 }
 
@@ -192,10 +198,6 @@ footer .fas {
 
 .latest-heading li {
   padding-bottom: 10px;
-}
-
-.highlights ul > li {
-  margin-right: 10px;
 }
 
 /* Latest funding  */
@@ -458,7 +460,6 @@ footer .fas {
 
 /* Hover styling */
 
-img,
 .top-box:hover {
   cursor: pointer;
 }
@@ -491,11 +492,6 @@ footer .fas:hover {
 .categories h2:hover,
 .latest-heading h2:hover {
   color: var(--darkColor);
-}
-
-footer .fab:hover,
-footer .fas:hover {
-  background-color: var(--darkColor);
 }
 
 @media screen and (min-width: 600px) {
@@ -679,6 +675,7 @@ footer .fas:hover {
   }
 
   .triangle {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
