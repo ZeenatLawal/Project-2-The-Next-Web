@@ -35,6 +35,12 @@ img {
   cursor: pointer;
 }
 
+#third-box,
+#fourth-box,
+.triangle {
+  display: none;
+}
+
 .display-m {
     display: block;
   }
