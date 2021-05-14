@@ -57,7 +57,7 @@ To run it online just click on [Live Demo Link](https://zeenatlawal.github.io/Pr
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ZeenatLawal/Project-2-The-Next-Web/issues/3).
+Feel free to check the [issues page](https://github.com/ZeenatLawal/Project-2-The-Next-Web/issues).
 
 ## Show your support
 
