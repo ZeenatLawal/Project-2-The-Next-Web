@@ -51,7 +51,7 @@ To run it online just click on [Live Demo Link](https://zeenatlawal.github.io/Pr
 
 - GitHub: [@AleksandarIvezic](https://github.com/ShinobiWarior)
 - Twitter: [@AIvezic](https://twitter.com/AIvezic)
-- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezic/)
 
 ## 🤝 Contributing
 
